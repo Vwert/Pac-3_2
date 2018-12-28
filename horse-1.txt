@@ -1,0 +1,186 @@
+[1] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["URL"] = "https://www.dropbox.com/s/imfg7ri3vlklbu6/Wanna%20hear%20the%20most%20annoying%20meme%20in%20the%20world.mp3?dl=0",
+								["ClassName"] = "webaudio",
+								["UniqueID"] = "2633625108",
+								["Loop"] = true,
+							},
+						},
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "3263198135",
+						["Event"] = "is_flashlight_on",
+						["EditorExpand"] = true,
+						["Invert"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["ClassName"] = "webaudio",
+				["UniqueID"] = "943408828",
+				["URL"] = "https://www.dropbox.com/s/imfg7ri3vlklbu6/Wanna%20hear%20the%20most%20annoying%20meme%20in%20the%20world.mp3?dl=0",
+				["EditorExpand"] = true,
+				["Loop"] = true,
+			},
+		},
+		[2] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Alpha"] = 0,
+				["ClassName"] = "entity",
+				["UniqueID"] = "4169938648",
+			},
+		},
+		[3] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Angles"] = Angle(-11.5, 47.799999237061, 47.5),
+								["Bone"] = "right forearm",
+								["UniqueID"] = "4244286647",
+								["ClassName"] = "bone",
+							},
+						},
+						[2] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Angles"] = Angle(18.39999961853, -79.099998474121, 44),
+								["Position"] = Vector(-0.20000000298023, 0, 0),
+								["Bone"] = "right upperarm",
+								["UniqueID"] = "155703873",
+								["ClassName"] = "bone",
+							},
+						},
+						[3] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Angles"] = Angle(-13.10000038147, 47.200000762939, -45.599998474121),
+								["Bone"] = "left forearm",
+								["UniqueID"] = "1915106239",
+								["ClassName"] = "bone",
+							},
+						},
+						[4] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Angles"] = Angle(1.1365861610102e-05, 13.529708862305, 8.9646237029228e-06),
+								["Bone"] = "spine 1",
+								["UniqueID"] = "4038182838",
+								["ClassName"] = "bone",
+							},
+						},
+						[5] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "animation",
+								["UniqueID"] = "3731446495",
+								["SequenceName"] = "sit",
+							},
+						},
+						[6] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Angles"] = Angle(-2.5999999046326, -86.5, -21.200000762939),
+								["Bone"] = "left upperarm",
+								["UniqueID"] = "695416930",
+								["ClassName"] = "bone",
+							},
+						},
+					},
+					["self"] = {
+						["Angles"] = Angle(-56.971611022949, -176.9645690918, 0.081647083163261),
+						["Position"] = Vector(17.353515625, 6.81201171875, 122.25537109375),
+						["ClassName"] = "model",
+						["Model"] = "models/player/kleiner.mdl",
+						["UniqueID"] = "3765015015",
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["StartColor"] = Vector(0, 255, 63),
+						["ClassName"] = "trail",
+						["UniqueID"] = "3180488077",
+						["Angles"] = Angle(56.452758789063, -0.00013363764446694, -0.00014908707817085),
+						["EndColor"] = Vector(0, 255, 63),
+						["StartSize"] = 53.6,
+						["Position"] = Vector(38.892578125, 10.43603515625, 65.44384765625),
+					},
+				},
+				[3] = {
+					["children"] = {
+					},
+					["self"] = {
+						["StartColor"] = Vector(0, 161, 255),
+						["ClassName"] = "trail",
+						["UniqueID"] = "1593569912",
+						["Angles"] = Angle(56.452758789063, -0.00013363764446694, -0.00014908707817085),
+						["EndColor"] = Vector(0, 161, 255),
+						["StartSize"] = 53.6,
+						["Position"] = Vector(43.3857421875, 10.435546875, 68.423828125),
+					},
+				},
+				[4] = {
+					["children"] = {
+					},
+					["self"] = {
+						["StartColor"] = Vector(255, 0, 191),
+						["ClassName"] = "trail",
+						["UniqueID"] = "1475072488",
+						["Angles"] = Angle(56.452758789063, -0.00013363764446694, -0.00014908707817085),
+						["EndColor"] = Vector(255, 0, 191),
+						["StartSize"] = 53.6,
+						["Position"] = Vector(43.10498046875, 10.435913085938, 68.2275390625),
+					},
+				},
+				[5] = {
+					["children"] = {
+					},
+					["self"] = {
+						["StartColor"] = Vector(255, 0, 0),
+						["ClassName"] = "trail",
+						["UniqueID"] = "1191021365",
+						["Angles"] = Angle(56.452758789063, -0.00013363764446694, -0.00014908707817085),
+						["EndColor"] = Vector(255, 0, 0),
+						["StartSize"] = 53.6,
+						["Position"] = Vector(45.8251953125, 10.435546875, 70.03955078125),
+					},
+				},
+			},
+			["self"] = {
+				["Angles"] = Angle(-10.322999954224, -25.89999961853, -87.699996948242),
+				["UniqueID"] = "3545468917",
+				["Position"] = Vector(-4, -84.5, 0),
+				["Bone"] = "spine 1",
+				["Model"] = "models/props_c17/statue_horse.mdl",
+				["ClassName"] = "model",
+			},
+		},
+	},
+	["self"] = {
+		["Name"] = "my outfit",
+		["ClassName"] = "group",
+		["UniqueID"] = "3475161888",
+		["Description"] = "add parts to me!",
+	},
+},

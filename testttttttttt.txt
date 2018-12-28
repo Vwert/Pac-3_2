@@ -1,0 +1,75 @@
+[1] = {
+	["children"] = {
+	},
+	["self"] = {
+		["Name"] = "my outfit",
+		["ClassName"] = "group",
+		["UniqueID"] = "3860251526",
+		["Description"] = "add parts to me!",
+	},
+},
+[2] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["RootOwner"] = true,
+						["UniqueID"] = "459998550",
+						["Expression"] = "nil, nil, owner_velocity_right() * 5",
+						["Description"] = "this is for side lean",
+						["ClassName"] = "proxy",
+						["VariableName"] = "Angles",
+					},
+				},
+				[2] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "proxy",
+								["Additive"] = true,
+								["Expression"] = "-owner_velocity_forward() * 2",
+								["UniqueID"] = "3346301612",
+								["RootOwner"] = true,
+								["VariableName"] = "Angles",
+							},
+						},
+					},
+					["self"] = {
+						["UniqueID"] = "3440646591",
+						["Position"] = Vector(0, 0, -0.10000000149012),
+						["Angles"] = Angle(1524.1859130859, 0, 90),
+						["Size"] = 1.65,
+						["EditorExpand"] = true,
+						["ClassName"] = "model",
+						["Bone"] = "none",
+						["Model"] = "models/XQM/Rails/trackball_1.mdl",
+						["Description"] = "the actual forward roll ball",
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "2375944239",
+				["Name"] = "base",
+				["ClassName"] = "model",
+				["Size"] = 1.075,
+				["Position"] = Vector(0, 0, 24),
+				["Angles"] = Angle(0, 0, 5.9766159782312e-34),
+				["Bone"] = "none",
+				["Model"] = "models/XQM/Rails/trackball_1.mdl",
+				["EditorExpand"] = true,
+			},
+		},
+	},
+	["self"] = {
+		["EditorExpand"] = true,
+		["UniqueID"] = "2683560774",
+		["ClassName"] = "group",
+		["Name"] = "rolling ball",
+		["Description"] = "add parts to me!",
+	},
+},

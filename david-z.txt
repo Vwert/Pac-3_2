@@ -1,0 +1,333 @@
+[1] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(-43.159156799316, -142.08564758301, 153.73976135254),
+						["ClassName"] = "clip",
+						["UniqueID"] = "1241564008",
+						["Position"] = Vector(-12.644000053406, 2.7880001068115, 50.505859375),
+					},
+				},
+				[2] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Velocity"] = 52.8,
+								["UniqueID"] = "1827937580",
+								["DieTime"] = 0.6,
+								["Color1"] = Vector(255, 0, 0),
+								["Position"] = Vector(6.16455078125, 12.07421875, -0.00146484375),
+								["PositionSpread"] = 0.5,
+								["EndSize"] = 1,
+								["ClassName"] = "particles",
+								["Lighting"] = false,
+								["Color2"] = Vector(218, 75, 75),
+								["Material"] = "sprites/flamelet1",
+								["Bone"] = "spine 2",
+								["StartSize"] = 6.1,
+								["Angles"] = Angle(7.1716989623383e-005, 120.21404266357, 1.7075473806472e-005),
+							},
+						},
+					},
+					["self"] = {
+						["Operator"] = "equal or below",
+						["ClassName"] = "event",
+						["UniqueID"] = "2989487741",
+						["Event"] = "owner_health",
+					},
+				},
+				[3] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(-56.509914398193, -70.341453552246, 75.822845458984),
+						["ClassName"] = "clip",
+						["UniqueID"] = "2412030515",
+						["Position"] = Vector(0.16650390625, 0.009765625, 61.799999237061),
+					},
+				},
+			},
+			["self"] = {
+				["Material"] = "https://www.dl.dropboxusercontent.com/s/ig1aybtgc2xl9tc/david_tex_addict.jpg?dl=0",
+				["DoubleFace"] = true,
+				["Angles"] = Angle(90.039001464844, 1.2000000476837, 0.5),
+				["Position"] = Vector(-63.5, 0.20000000298023, -0.10000000149012),
+				["UniqueID"] = "3436389747",
+				["Model"] = "https://www.dropbox.com/s/t4rvn82klkx86bf/david.obj?dl=0",
+				["ClassName"] = "model",
+			},
+		},
+		[2] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "bone",
+						["UniqueID"] = "2918045866",
+						["Size"] = 0.1,
+					},
+				},
+			},
+			["self"] = {
+				["Color"] = Vector(0, 0, 0),
+				["ClassName"] = "entity",
+				["UniqueID"] = "1244362363",
+				["Model"] = "models/player/arctic.mdl",
+			},
+		},
+	},
+	["self"] = {
+		["Name"] = "my outfit",
+		["ClassName"] = "group",
+		["UniqueID"] = "3822494058",
+		["Description"] = "add parts to me!",
+	},
+},
+[2] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(-39.638290405273, -103.93844604492, 63.437347412109),
+						["UniqueID"] = "2634694237",
+						["Bone"] = "right forearm",
+						["ClassName"] = "bone",
+						["EditorExpand"] = true,
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["OwnerCycle"] = true,
+						["ClassName"] = "animation",
+						["UniqueID"] = "3704361468",
+						["SequenceName"] = "run_dual",
+					},
+				},
+				[3] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(-66.496437072754, 9.67493724823, -0.0014514785725623),
+						["Bone"] = "right hand",
+						["UniqueID"] = "1612746918",
+						["ClassName"] = "bone",
+					},
+				},
+				[4] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(7.9674525260925, -15.200087547302, -2.1567385196686),
+						["Bone"] = "left upperarm",
+						["UniqueID"] = "625223986",
+						["ClassName"] = "bone",
+					},
+				},
+				[5] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(45.664619445801, -87.208839416504, -36.52710723877),
+						["Bone"] = "left forearm",
+						["UniqueID"] = "2137305016",
+						["ClassName"] = "bone",
+					},
+				},
+				[6] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(-23.810646057129, 5.2058362960815, -0.90322870016098),
+						["Bone"] = "right upperarm",
+						["UniqueID"] = "2018063444",
+						["ClassName"] = "bone",
+					},
+				},
+			},
+			["self"] = {
+				["ClassName"] = "event",
+				["UniqueID"] = "716787993",
+				["Event"] = "speed",
+				["Operator"] = "equal",
+				["EditorExpand"] = true,
+				["Invert"] = true,
+			},
+		},
+	},
+	["self"] = {
+		["ClassName"] = "group",
+		["UniqueID"] = "776980240",
+		["Name"] = "idle",
+	},
+},
+[3] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(3.7980237007141, 136.9935760498, 107.93390655518),
+						["UniqueID"] = "1376793995",
+						["ClassName"] = "model",
+						["Position"] = Vector(2.4873046875, -3.154296875, -4.6162109375),
+						["Bone"] = "right hand",
+						["Model"] = "https://www.dropbox.com/s/vx1mxsrs0maqrzj/axe.obj?dl=0",
+						["Material"] = "https://www.dl.dropboxusercontent.com/s/maod02j8apx6wdt/skin.jpg?dl=0",
+					},
+				},
+			},
+			["self"] = {
+				["ClassName"] = "event",
+				["UniqueID"] = "1806381545",
+				["Event"] = "weapon_class",
+				["Operator"] = "equal",
+				["Arguments"] = "weapon_crowbar@@1",
+				["Invert"] = true,
+			},
+		},
+	},
+	["self"] = {
+		["ClassName"] = "group",
+		["UniqueID"] = "2322015576",
+		["Name"] = "axe",
+	},
+},
+[4] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(-39.638290405273, -103.93844604492, 63.437347412109),
+						["UniqueID"] = "3827801007",
+						["Bone"] = "right forearm",
+						["ClassName"] = "bone",
+						["EditorExpand"] = true,
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(-23.810646057129, 5.2058362960815, -0.90322870016098),
+						["Bone"] = "right upperarm",
+						["UniqueID"] = "2020665424",
+						["ClassName"] = "bone",
+					},
+				},
+				[3] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(-66.496437072754, 9.67493724823, -0.0014514785725623),
+						["Bone"] = "right hand",
+						["UniqueID"] = "386748930",
+						["ClassName"] = "bone",
+					},
+				},
+				[4] = {
+					["children"] = {
+					},
+					["self"] = {
+						["OwnerCycle"] = true,
+						["ClassName"] = "animation",
+						["UniqueID"] = "3914610490",
+						["SequenceName"] = "run_dual",
+					},
+				},
+				[5] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(7.9674525260925, -15.200087547302, -2.1567385196686),
+						["UniqueID"] = "2740524215",
+						["Bone"] = "left upperarm",
+						["ClassName"] = "bone",
+						["EditorExpand"] = true,
+					},
+				},
+				[6] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(45.664619445801, -87.208839416504, -36.52710723877),
+						["Bone"] = "left forearm",
+						["UniqueID"] = "877631955",
+						["ClassName"] = "bone",
+					},
+				},
+			},
+			["self"] = {
+				["Event"] = "speed",
+				["UniqueID"] = "762673590",
+				["Operator"] = "equal",
+				["ClassName"] = "event",
+				["EditorExpand"] = true,
+			},
+		},
+	},
+	["self"] = {
+		["ClassName"] = "group",
+		["UniqueID"] = "972895045",
+		["Name"] = "walk",
+	},
+},
+[5] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "939107976",
+						["Event"] = "weapon_class",
+						["Operator"] = "equal",
+						["Arguments"] = "weapon_crowbar@@1",
+						["Invert"] = true,
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Overlapping"] = true,
+						["ClassName"] = "webaudio",
+						["StopOnHide"] = false,
+						["URL"] = "https://www.dropbox.com/s/t4v0nlv5e57xrpq/david_attack.wav?dl=0",
+						["UniqueID"] = "1934443683",
+					},
+				},
+			},
+			["self"] = {
+				["ClassName"] = "event",
+				["UniqueID"] = "1805935665",
+				["Event"] = "animation_event",
+				["Arguments"] = "attack@@0.1",
+				["Invert"] = true,
+			},
+		},
+	},
+	["self"] = {
+		["ClassName"] = "group",
+		["UniqueID"] = "1237827958",
+		["Name"] = "axe atk",
+	},
+},

@@ -1,0 +1,232 @@
+[1] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "bone",
+						["UniqueID"] = "33455706",
+						["Size"] = 2.075,
+					},
+				},
+			},
+			["self"] = {
+				["ClassName"] = "entity",
+				["UniqueID"] = "4268418119",
+				["Model"] = "models/player/breen.mdl",
+			},
+		},
+	},
+	["self"] = {
+		["Name"] = "my outfit",
+		["ClassName"] = "group",
+		["UniqueID"] = "1570914789",
+		["Description"] = "add parts to me!",
+	},
+},
+[2] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Overlapping"] = true,
+						["ClassName"] = "sound",
+						["UniqueID"] = "621874791",
+						["Sound"] = "ambient/explosions/exp2.wav",
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["DamageType"] = "burn",
+						["UniqueID"] = "3966368892",
+						["Speed"] = 10,
+						["AimDir"] = true,
+						["OutfitPartUID"] = "463363459",
+						["Damage"] = 10000000,
+						["Gravity"] = false,
+						["Position"] = Vector(57.742790222168, 1.0726318359375, 100.818359375),
+						["Physical"] = true,
+						["Mass"] = 50000,
+						["ClassName"] = "projectile",
+						["Bone"] = "",
+						["Radius"] = 50000,
+						["LifeTime"] = 8,
+						["OutfitPartName"] = "computer god",
+						["EyeAngles"] = true,
+						["Sphere"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["Event"] = "is_flashlight_on",
+				["ClassName"] = "event",
+				["Invert"] = true,
+				["UniqueID"] = "1234777570",
+			},
+		},
+	},
+	["self"] = {
+		["ClassName"] = "group",
+		["UniqueID"] = "3370283598",
+		["Name"] = "hax god",
+	},
+},
+[3] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Event"] = "timer",
+								["Arguments"] = "0.01@@0.01",
+								["UniqueID"] = "820958764",
+								["ClassName"] = "event",
+							},
+						},
+					},
+					["self"] = {
+						["EditorExpand"] = true,
+						["UniqueID"] = "2067766793",
+						["ClassName"] = "shake",
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Multiplier"] = -0.15,
+						["ClassName"] = "sunbeams",
+						["UniqueID"] = "3854639441",
+						["Position"] = Vector(134, 0.0185546875, 135.63900756836),
+					},
+				},
+				[3] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Velocity"] = 0.1,
+						["UniqueID"] = "2849569340",
+						["Lighting"] = false,
+						["FireDelay"] = 0,
+						["EndSize"] = 1,
+						["ClassName"] = "particles",
+						["DieTime"] = 0.1,
+						["Position"] = Vector(23.139999389648, 0.001953125, 161.1005859375),
+						["Color1"] = Vector(233, 57, 57),
+						["StartSize"] = 1257.9,
+						["Material"] = "sprites/light_glow02_add_noz",
+					},
+				},
+			},
+			["self"] = {
+				["ClassName"] = "model",
+				["Size"] = 11.35,
+				["EditorExpand"] = true,
+				["Model"] = "models/props_lab/monitor02.mdl",
+				["UniqueID"] = "3221363414",
+			},
+		},
+	},
+	["self"] = {
+		["Name"] = "computer god",
+		["ClassName"] = "group",
+		["UniqueID"] = "463363459",
+		["Hide"] = true,
+	},
+},
+[4] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+			},
+			["self"] = {
+				["ClassName"] = "model",
+				["UniqueID"] = "527396165",
+				["Model"] = "models/props_lab/monitor02.mdl",
+			},
+		},
+	},
+	["self"] = {
+		["Name"] = "computer",
+		["ClassName"] = "group",
+		["UniqueID"] = "3416501768",
+		["Hide"] = true,
+	},
+},
+[5] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "482571835",
+						["Event"] = "weapon_class",
+						["Operator"] = "equal",
+						["Arguments"] = "weapon_crowbar@@1",
+						["Invert"] = true,
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["DamageType"] = "dissolve",
+						["UniqueID"] = "3755574452",
+						["Speed"] = 50,
+						["AimDir"] = true,
+						["OutfitPartUID"] = "3416501768",
+						["Damage"] = 10000000,
+						["Gravity"] = false,
+						["Position"] = Vector(0, 0, 52.7119140625),
+						["Physical"] = true,
+						["Mass"] = 50000,
+						["ClassName"] = "projectile",
+						["Bone"] = "",
+						["Radius"] = 50000,
+						["LifeTime"] = 3,
+						["OutfitPartName"] = "computer",
+						["EyeAngles"] = true,
+						["Sphere"] = true,
+					},
+				},
+				[3] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Overlapping"] = true,
+						["ClassName"] = "sound",
+						["UniqueID"] = "1533118888",
+						["Pitch"] = 0.391,
+						["Sound"] = "vo/npc/male01/hacks01.wav",
+					},
+				},
+			},
+			["self"] = {
+				["ClassName"] = "event",
+				["UniqueID"] = "3144757836",
+				["Event"] = "animation_event",
+				["Arguments"] = "attack@@0.1",
+				["Invert"] = true,
+			},
+		},
+	},
+	["self"] = {
+		["ClassName"] = "group",
+		["UniqueID"] = "1709329148",
+		["Name"] = "hax",
+	},
+},

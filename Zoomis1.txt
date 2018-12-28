@@ -1,0 +1,241 @@
+[1] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Walk"] = "swimming_all",
+						["UniqueID"] = "829754456",
+						["ActLand"] = "swimming_all",
+						["AttackStandPrimaryfire"] = "swimming_all",
+						["Run"] = "swimming_all",
+						["CrouchIdle"] = "swimming_all",
+						["Sitting"] = "swimming_all",
+						["Fallback"] = "swimming_all",
+						["ActRangeAttack1"] = "swimming_all",
+						["Noclip"] = "swimming_all",
+						["SwimIdle"] = "swimming_all",
+						["StandIdle"] = "swimming_all",
+						["AttackCrouchPrimaryfire"] = "swimming_all",
+						["ClassName"] = "holdtype",
+						["Swim"] = "swimming_all",
+						["ReloadCrouch"] = "swimming_all",
+						["CrouchWalk"] = "swimming_all",
+						["Jump"] = "swimming_all",
+						["Air"] = "swimming_all",
+						["ReloadStand"] = "swimming_all",
+					},
+				},
+			},
+			["self"] = {
+				["ClassName"] = "entity",
+				["HideEntity"] = true,
+				["UniqueID"] = "3481519478",
+				["Model"] = "models/player/combine_super_soldier.mdl",
+				["EditorExpand"] = true,
+			},
+		},
+		[2] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "light",
+						["Size"] = 28.1,
+						["EditorExpand"] = true,
+						["Brightness"] = 65.2,
+						["UniqueID"] = "3334602424",
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Color"] = Vector(127, 0, 0),
+						["ClassName"] = "halo",
+						["UniqueID"] = "510168392",
+					},
+				},
+			},
+			["self"] = {
+				["EditorExpand"] = true,
+				["Size"] = 0.375,
+				["UniqueID"] = "1938189295",
+				["ClassName"] = "model",
+				["Bone"] = "left hand",
+				["Model"] = "models/effects/combineball.mdl",
+				["Angles"] = Angle(8.153538510669e-05, -22.064365386963, 0.00023214641259983),
+			},
+		},
+		[3] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Color"] = Vector(127, 0, 0),
+						["ClassName"] = "halo",
+						["UniqueID"] = "703093259",
+					},
+				},
+			},
+			["self"] = {
+				["EditorExpand"] = true,
+				["Size"] = 0.375,
+				["UniqueID"] = "993111706",
+				["ClassName"] = "model",
+				["Bone"] = "right hand",
+				["Model"] = "models/effects/combineball.mdl",
+				["Angles"] = Angle(8.153538510669e-05, -22.064365386963, 0.00023214641259983),
+			},
+		},
+		[4] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "bone",
+						["UniqueID"] = "4258514055",
+						["Size"] = 0.1,
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Color"] = Vector(127, 0, 0),
+						["ClassName"] = "halo",
+						["UniqueID"] = "617344091",
+					},
+				},
+			},
+			["self"] = {
+				["BoneMerge"] = true,
+				["ClassName"] = "model",
+				["UniqueID"] = "3527488888",
+				["Color"] = Vector(96, 96, 96),
+				["EditorExpand"] = true,
+				["Model"] = "models/player/combine_super_soldier.mdl",
+				["Material"] = "models/gibs/woodgibs/woodgibs03",
+			},
+		},
+		[5] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Position"] = Vector(5.068603515625, 0.14932250976563, 1.91552734375),
+						["UniqueID"] = "4009357444",
+						["Model"] = "models/nova/w_headgear.mdl",
+						["Size"] = 0.475,
+						["Angles"] = Angle(20.700487136841, 90.81721496582, -121.37351989746),
+						["DoubleFace"] = true,
+						["ClassName"] = "model",
+						["Color"] = Vector(127, 0, 0),
+						["Fullbright"] = true,
+						["Brightness"] = 28.1,
+						["Material"] = "models/shadertest/shader1_dudv",
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Position"] = Vector(1.788818359375, 4.7819519042969, 1.64599609375),
+						["UniqueID"] = "3437373050",
+						["Model"] = "models/nova/w_headgear.mdl",
+						["Size"] = 0.475,
+						["Angles"] = Angle(58.024513244629, -41.639083862305, 43.675609588623),
+						["DoubleFace"] = true,
+						["ClassName"] = "model",
+						["Color"] = Vector(127, 0, 0),
+						["Fullbright"] = true,
+						["Brightness"] = 28.1,
+						["Material"] = "models/shadertest/shader1_dudv",
+					},
+				},
+				[3] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(32.002632141113, -57.848793029785, 23.135732650757),
+						["Position"] = Vector(1.9295043945313, -0.92486572265625, -0.46533203125),
+						["Color"] = Vector(0, 0, 0),
+						["UniqueID"] = "942094787",
+						["Model"] = "models/healthvial.mdl",
+						["ClassName"] = "model",
+					},
+				},
+				[4] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Position"] = Vector(4.4859008789063, -0.72491455078125, -2.8759765625),
+						["UniqueID"] = "3437373050",
+						["Model"] = "models/nova/w_headgear.mdl",
+						["Size"] = 0.475,
+						["Angles"] = Angle(-3.6712270230055e-05, -80.64444732666, 21.450580596924),
+						["DoubleFace"] = true,
+						["ClassName"] = "model",
+						["Color"] = Vector(127, 0, 0),
+						["Fullbright"] = true,
+						["Brightness"] = 28.1,
+						["Material"] = "models/shadertest/shader1_dudv",
+					},
+				},
+				[5] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(43.048179626465, 77.108901977539, -179.68002319336),
+						["Position"] = Vector(2.8771362304688, -1.0551147460938, 1.52392578125),
+						["Color"] = Vector(0, 0, 0),
+						["UniqueID"] = "594614131",
+						["Model"] = "models/healthvial.mdl",
+						["ClassName"] = "model",
+					},
+				},
+				[6] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Color"] = Vector(127, 0, 0),
+						["ClassName"] = "halo",
+						["UniqueID"] = "4285418093",
+					},
+				},
+			},
+			["self"] = {
+				["Angles"] = Angle(-90, 95.714073181152, -179.99989318848),
+				["UniqueID"] = "1494387029",
+				["Color"] = Vector(0, 0, 0),
+				["ClassName"] = "model",
+				["Model"] = "models/nova/w_headcrab.mdl",
+				["EditorExpand"] = true,
+			},
+		},
+		[6] = {
+			["children"] = {
+			},
+			["self"] = {
+				["ClassName"] = "light",
+				["Position"] = Vector(11.381469726563, 0, 7.2327880859375),
+				["Size"] = 18.65,
+				["Color"] = Vector(127, 0, 0),
+				["Bone"] = "",
+				["Brightness"] = 1.1,
+				["UniqueID"] = "2569590984",
+			},
+		},
+	},
+	["self"] = {
+		["ClassName"] = "group",
+		["UniqueID"] = "893359709",
+		["Name"] = "my outfit",
+	},
+},

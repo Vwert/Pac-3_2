@@ -1,0 +1,73 @@
+[1] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(3.116273728665e-05, 3.6178658774588e-05, 92.262001037598),
+						["UniqueID"] = "2372475983",
+						["ClassName"] = "text",
+						["Position"] = Vector(13.88300037384, 22.028999328613, -9.5),
+						["Text"] = "O",
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(3.116273728665e-05, 3.6178658774588e-05, 93.561996459961),
+						["UniqueID"] = "2880136579",
+						["ClassName"] = "text",
+						["Position"] = Vector(13.88300037384, 21.729000091553, 11),
+						["Text"] = "O",
+					},
+				},
+				[3] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(-1.5060000419617, 179.99995422363, 89.818687438965),
+						["UniqueID"] = "978939994",
+						["ClassName"] = "text",
+						["Position"] = Vector(4.9980001449585, 21.822999954224, 1.7999999523163),
+						["Text"] = "(",
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "2970374270",
+				["Scale"] = Vector(1.1000000238419, 1, 1),
+				["Angles"] = Angle(-2.6635546684265, -2.3498029708862, 26.866714477539),
+				["Size"] = 1.1,
+				["ClassName"] = "model",
+				["Position"] = Vector(8.7353515625, 5.4561767578125, -1.34228515625),
+				["Bone"] = "spine 1",
+				["Model"] = "models/props_junk/wood_crate001a.mdl",
+				["EditorExpand"] = true,
+			},
+		},
+		[2] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Walk"] = "cwalk_melee2",
+				["UniqueID"] = "3286774281",
+				["AttackStandPrimaryfire"] = "cidle_melee2",
+				["Run"] = "cwalk_melee2",
+				["ClassName"] = "holdtype",
+				["CrouchIdle"] = "cidle_melee2",
+				["CrouchWalk"] = "cwalk_melee2",
+				["StandIdle"] = "cidle_melee2",
+				["AttackCrouchPrimaryfire"] = "cidle_melee2",
+			},
+		},
+	},
+	["self"] = {
+		["Name"] = "my outfit",
+		["ClassName"] = "group",
+		["UniqueID"] = "1531100644",
+		["Description"] = "add parts to me!",
+	},
+},

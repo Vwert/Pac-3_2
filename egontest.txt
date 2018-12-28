@@ -1,0 +1,343 @@
+[1] = {
+	["children"] = {
+	},
+	["self"] = {
+		["ClassName"] = "group",
+		["UniqueID"] = "633273071",
+		["Name"] = "my outfit",
+	},
+},
+[2] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Walk"] = "walk_dual",
+						["UniqueID"] = "2803728409",
+						["Jump"] = "jump_dual",
+						["AttackStandPrimaryfire"] = "range_rpg",
+						["Run"] = "run_dual",
+						["ClassName"] = "holdtype",
+						["CrouchWalk"] = "cwalk_dual",
+						["StandIdle"] = "idle_dual",
+						["AttackCrouchPrimaryfire"] = "range_rpg",
+					},
+				},
+				[2] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["UniqueID"] = "4123746654",
+								["ClassName"] = "event",
+								["Invert"] = true,
+								["Event"] = "is_flashlight_on",
+							},
+						},
+					},
+					["self"] = {
+						["EndPointName"] = "effectme",
+						["Position"] = Vector(8.5298919677734, -2.6019592285156, -3.5675048828125),
+						["Bend"] = 1,
+						["UniqueID"] = "4173983911",
+						["EditorExpand"] = true,
+						["StartColor"] = Vector(0, 161, 255),
+						["ClassName"] = "beam",
+						["Width"] = 72.5,
+						["EndPointUID"] = "1919859544",
+						["Angles"] = Angle(-22.713890075684, -4.6277779119919e-07, 4.8591668928566e-06),
+						["Bone"] = "right hand",
+						["EndColor"] = Vector(0, 161, 255),
+						["Material"] = "trails/physbeam",
+					},
+				},
+				[3] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(16.200000762939, 23.39999961853, 0),
+						["Bone"] = "left forearm",
+						["UniqueID"] = "3666350198",
+						["ClassName"] = "bone",
+					},
+				},
+				[4] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["EndPointName"] = "real",
+								["ClassName"] = "beam",
+								["EndPointUID"] = "3331925110",
+								["UniqueID"] = "150387476",
+								["Position"] = Vector(0.00048828125, 0.1710000038147, 9.621000289917),
+								["EndColor"] = Vector(0, 0, 0),
+								["Bend"] = -15.3,
+								["Angles"] = Angle(-1.3634959459305, 58.386131286621, -179.16088867188),
+							},
+						},
+					},
+					["self"] = {
+						["Angles"] = Angle(0, -90.000045776367, 89.999954223633),
+						["Position"] = Vector(7.8002319335938, -3.635498046875, -4.1558837890625),
+						["UniqueID"] = "3971755159",
+						["ClassName"] = "model",
+						["Bone"] = "spine 2",
+						["Model"] = "models/thrusters/jetpack.mdl",
+						["Scale"] = Vector(1, 0.80000001192093, 0.89999997615814),
+					},
+				},
+				[5] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(4.3454079627991, -26.401384353638, -81.322059631348),
+						["Bone"] = "right hand",
+						["UniqueID"] = "1267255392",
+						["ClassName"] = "bone",
+					},
+				},
+				[6] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["UniqueID"] = "2026835259",
+								["PositionSpread"] = 2.1,
+								["FireDelay"] = 0,
+								["Lighting"] = false,
+								["Material"] = "sprites/blueglow2",
+								["StartLength"] = 122.5,
+								["Spread"] = 0.6,
+								["NumberParticles"] = 20,
+								["EndLength"] = 67.4,
+								["DieTime"] = 0.5,
+								["ClassName"] = "particles",
+							},
+						},
+						[2] = {
+							["children"] = {
+							},
+							["self"] = {
+								["UniqueID"] = "3692705188",
+								["Lighting"] = false,
+								["FireDelay"] = 0,
+								["ClassName"] = "particles",
+								["StartSize"] = 105.3,
+								["Spread"] = 0.8,
+								["Material"] = "sprites/blueglow2",
+								["DieTime"] = 0.2,
+								["NumberParticles"] = 5,
+								["PositionSpread"] = 23.9,
+							},
+						},
+						[3] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "sound",
+								["UniqueID"] = "1593421200",
+								["Volume"] = 0.625,
+								["Pitch"] = 0.775,
+								["Loop"] = true,
+								["Sound"] = "ambient/energy/force_field_loop1.wav",
+							},
+						},
+						[4] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Color"] = Vector(0, 161, 255),
+								["ClassName"] = "light",
+								["UniqueID"] = "1718727933",
+								["Size"] = 132.55,
+							},
+						},
+						[5] = {
+							["children"] = {
+							},
+							["self"] = {
+								["UniqueID"] = "2963516004",
+								["ClassName"] = "event",
+								["Invert"] = true,
+								["Event"] = "is_flashlight_on",
+							},
+						},
+					},
+					["self"] = {
+						["Alpha"] = 0,
+						["ClassName"] = "model",
+						["UniqueID"] = "1919859544",
+						["Bone"] = "hitpos",
+						["Name"] = "effectme",
+						["Model"] = "models/pac/default.mdl",
+					},
+				},
+				[7] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(7.4629998207092, -22.256000518799, 38.420425415039),
+						["Bone"] = "left upperarm",
+						["UniqueID"] = "346032343",
+						["ClassName"] = "bone",
+					},
+				},
+				[8] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(0, -90.000045776367, 89.999954223633),
+						["Position"] = Vector(7.8004150390625, -3.637451171875, 1.8447265625),
+						["UniqueID"] = "2521637025",
+						["ClassName"] = "model",
+						["Bone"] = "spine 2",
+						["Model"] = "models/thrusters/jetpack.mdl",
+						["Scale"] = Vector(1, 0.80000001192093, 0.89999997615814),
+					},
+				},
+				[9] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["UniqueID"] = "3209414910",
+								["Angles"] = Angle(-89.037246704102, -179.99938964844, 179.99940490723),
+								["Position"] = Vector(3.255859375, 0.00023651123046875, -8.0478515625),
+								["ClassName"] = "model",
+								["Color"] = Vector(40, 40, 40),
+								["Size"] = 0.8,
+								["Model"] = "models/Mechanics/robotics/a1.mdl",
+								["Scale"] = Vector(0.5, 0.80000001192093, 0.80000001192093),
+							},
+						},
+						[2] = {
+							["children"] = {
+							},
+							["self"] = {
+								["UniqueID"] = "2037969759",
+								["Angles"] = Angle(-89.037246704102, -179.99938964844, 179.99940490723),
+								["Position"] = Vector(3.1708984375, 9.1552734375e-05, -2.992431640625),
+								["ClassName"] = "model",
+								["Color"] = Vector(0, 0, 0),
+								["Size"] = 0.275,
+								["Model"] = "models/Mechanics/robotics/a1.mdl",
+								["Scale"] = Vector(1.2999999523163, 0.89999997615814, 0.89999997615814),
+							},
+						},
+						[3] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Angles"] = Angle(6.4033015405585e-06, 5.3360846408168e-08, -175.65846252441),
+								["Position"] = Vector(2.6915893554688, -1.2005004882813, 2.24658203125),
+								["UniqueID"] = "2993873718",
+								["Color"] = Vector(0, 0, 0),
+								["Size"] = 0.075,
+								["Model"] = "models/props_phx/construct/wood/wood_dome360.mdl",
+								["ClassName"] = "model",
+							},
+						},
+						[4] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Alpha"] = 0,
+								["ClassName"] = "model",
+								["Position"] = Vector(3.199951171875, 2.288818359375e-05, -11.94970703125),
+								["UniqueID"] = "3331925110",
+								["Model"] = "models/pac/default.mdl",
+								["Name"] = "real",
+								["Size"] = 0.375,
+							},
+						},
+						[5] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Angles"] = Angle(6.4033015405585e-06, 5.3360846408168e-08, -175.65846252441),
+								["Position"] = Vector(2.6915893554688, -1.291748046875, 3.44873046875),
+								["UniqueID"] = "1800392018",
+								["Color"] = Vector(0, 0, 0),
+								["Size"] = 0.075,
+								["Model"] = "models/props_phx/construct/wood/wood_dome360.mdl",
+								["ClassName"] = "model",
+							},
+						},
+					},
+					["self"] = {
+						["Position"] = Vector(3.681396484375, -1.8996810913086, -1.735107421875),
+						["Scale"] = Vector(1, 0.60000002384186, 0.60000002384186),
+						["ClassName"] = "model",
+						["Size"] = 0.3,
+						["UniqueID"] = "2804611444",
+						["Color"] = Vector(0, 0, 0),
+						["Bone"] = "right hand",
+						["Model"] = "models/Mechanics/robotics/a1.mdl",
+						["Angles"] = Angle(70.603645324707, -4.7048092710611e-06, 4.0169132375922e-07),
+					},
+				},
+				[10] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Event"] = "timer",
+										["UniqueID"] = "1842167585",
+										["ClassName"] = "event",
+									},
+								},
+							},
+							["self"] = {
+								["Event"] = "is_flashlight_on",
+								["Invert"] = true,
+								["UniqueID"] = "501657813",
+								["EditorExpand"] = true,
+								["ClassName"] = "event",
+							},
+						},
+					},
+					["self"] = {
+						["DamageType"] = "removenoragdoll",
+						["UniqueID"] = "442910901",
+						["Speed"] = 10,
+						["Physical"] = true,
+						["AimDir"] = true,
+						["LifeTime"] = 1,
+						["ClassName"] = "projectile",
+						["Sphere"] = true,
+						["Radius"] = 100,
+						["Mass"] = 10000,
+						["Damage"] = 100000,
+						["EyeAngles"] = true,
+						["EditorExpand"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["Event"] = "weapon_class",
+				["Invert"] = true,
+				["UniqueID"] = "616467798",
+				["Arguments"] = "none@@1",
+				["Operator"] = "equal",
+				["EditorExpand"] = true,
+				["ClassName"] = "event",
+			},
+		},
+	},
+	["self"] = {
+		["ClassName"] = "group",
+		["UniqueID"] = "3390371097",
+		["Name"] = "egon",
+	},
+},

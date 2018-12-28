@@ -1,0 +1,995 @@
+[1] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Overlapping"] = true,
+								["ClassName"] = "sound",
+								["UniqueID"] = "905788888",
+								["Pitch"] = 0.402,
+								["EditorExpand"] = true,
+								["Name"] = "dog footstep[1,4]",
+								["Sound"] = "npc/dog/dog_footstep[1,4].wav",
+							},
+						},
+					},
+					["self"] = {
+						["AffectChildrenOnly"] = true,
+						["Invert"] = true,
+						["Name"] = "is ranger below 5?",
+						["ClassName"] = "event",
+						["UniqueID"] = "213354147",
+						["RootOwner"] = false,
+						["EditorExpand"] = true,
+						["Operator"] = "below",
+						["Arguments"] = "5@@10",
+						["Event"] = "ranger",
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "103201093",
+				["TintColor"] = Vector(0.63942295312881, 0.63942295312881, 0.63942295312881),
+				["Name"] = "right foot",
+				["Alpha"] = 0,
+				["Angles"] = Angle(0, 90, 0),
+				["EditorExpand"] = true,
+				["Bone"] = "right toe",
+				["ClassName"] = "model",
+				["Position"] = Vector(-30, 0, 0),
+			},
+		},
+		[2] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Overlapping"] = true,
+								["ClassName"] = "sound",
+								["UniqueID"] = "1659234766",
+								["Pitch"] = 0.428,
+								["EditorExpand"] = true,
+								["Name"] = "dog footstep[1,4]",
+								["Sound"] = "npc/dog/dog_footstep[1,4].wav",
+							},
+						},
+					},
+					["self"] = {
+						["AffectChildrenOnly"] = true,
+						["Invert"] = true,
+						["Name"] = "is ranger below 5?",
+						["ClassName"] = "event",
+						["UniqueID"] = "3181550699",
+						["RootOwner"] = false,
+						["EditorExpand"] = true,
+						["Operator"] = "below",
+						["Arguments"] = "5@@10",
+						["Event"] = "ranger",
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "3681250577",
+				["TintColor"] = Vector(0.63942295312881, 0.63942295312881, 0.63942295312881),
+				["Name"] = "left foot",
+				["Alpha"] = 0,
+				["Angles"] = Angle(0, 90, 0),
+				["EditorExpand"] = true,
+				["Bone"] = "left toe",
+				["ClassName"] = "model",
+				["Position"] = Vector(-30, 0, 0),
+			},
+		},
+	},
+	["self"] = {
+		["Name"] = "footsteps",
+		["ClassName"] = "group",
+		["UniqueID"] = "2980027574",
+		["Description"] = "add parts to me!",
+	},
+},
+[2] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["OwnerCycle"] = true,
+						["ClassName"] = "animation",
+						["UniqueID"] = "4252274597",
+						["SequenceName"] = "walk_all",
+					},
+				},
+				[2] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Event"] = "timer",
+								["Arguments"] = "0.8@@0.8",
+								["UniqueID"] = "1435193130",
+								["ClassName"] = "event",
+							},
+						},
+					},
+					["self"] = {
+						["URL"] = "https://www.dropbox.com/s/c4kvy589e4572du/Butcher_Walk.txt?dl=0",
+						["ClassName"] = "custom_animation",
+						["UniqueID"] = "2184424860",
+						["EditorExpand"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["Event"] = "speed",
+				["UniqueID"] = "3724903999",
+				["Operator"] = "equal",
+				["ClassName"] = "event",
+				["EditorExpand"] = true,
+			},
+		},
+	},
+	["self"] = {
+		["ClassName"] = "group",
+		["UniqueID"] = "1010866737",
+		["Name"] = "walking",
+	},
+},
+[3] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+			},
+			["self"] = {
+				["ClassName"] = "model",
+				["Angles"] = Angle(-6.1879096031189, 96.308853149414, -0.93544799089432),
+				["UniqueID"] = "2412260175",
+				["Size"] = 9.95,
+				["Position"] = Vector(24.2998046875, -0.6817626953125, 0.21603393554688),
+				["Bone"] = "right thigh",
+				["Model"] = "https://www.dropbox.com/s/82twg6tvv7uof8r/butcher_r_thigh.obj?dl=0",
+				["Material"] = "https://www.dl.dropboxusercontent.com/s/zq96yhlddq5ph05/t_tankDroneSaw_limbs_d.jpg?dl=0",
+			},
+		},
+		[2] = {
+			["children"] = {
+			},
+			["self"] = {
+				["ClassName"] = "model",
+				["Angles"] = Angle(-79.168037414551, 123.42160797119, -39.366828918457),
+				["UniqueID"] = "3038591352",
+				["Size"] = 13.1,
+				["Position"] = Vector(20.7412109375, -5.052978515625, -3.3008422851563),
+				["Bone"] = "right calf",
+				["Model"] = "https://www.dropbox.com/s/63upkrtw49341ue/butcher_r_boot.obj?dl=0",
+				["Material"] = "https://www.dl.dropboxusercontent.com/s/zq96yhlddq5ph05/t_tankDroneSaw_limbs_d.jpg?dl=0",
+			},
+		},
+		[3] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Event"] = "is_flashlight_on",
+						["ClassName"] = "event",
+						["Invert"] = true,
+						["UniqueID"] = "1259177809",
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "3048313830",
+				["Model"] = "https://www.dropbox.com/s/twjxk64wbhjyz6i/butcher_core.obj?dl=0",
+				["Angles"] = Angle(-86.899536132813, 72.669357299805, -150.31774902344),
+				["Position"] = Vector(-9.96875, 12.844635009766, -0.032501220703125),
+				["ClassName"] = "model",
+				["Size"] = 9.775,
+				["Fullbright"] = true,
+				["Color"] = Vector(202, 85, 85),
+				["Bone"] = "spine 1",
+				["Brightness"] = 2.2,
+				["Material"] = "https://www.dl.dropboxusercontent.com/s/3jftk0caqgtl9xe/t_prpInt_poisonRef_d.jpg?dl=0",
+			},
+		},
+		[4] = {
+			["children"] = {
+			},
+			["self"] = {
+				["ClassName"] = "model",
+				["Angles"] = Angle(-89.717391967773, 0.0077513107098639, -78.596061706543),
+				["UniqueID"] = "10482380",
+				["Size"] = 9.65,
+				["Position"] = Vector(-2.3896484375, 44.888977050781, -4.5677947998047),
+				["Bone"] = "spine 1",
+				["Model"] = "https://www.dropbox.com/s/agz6niz5fd5lovg/butcher_body.obj?dl=0",
+				["Material"] = "https://www.dl.dropboxusercontent.com/s/3qnpc9ay548s4nn/t_tankDroneSaw_body_d.jpg?dl=0",
+			},
+		},
+		[5] = {
+			["children"] = {
+			},
+			["self"] = {
+				["ClassName"] = "model",
+				["Angles"] = Angle(-68.700347900391, -96.38037109375, 178.63645935059),
+				["UniqueID"] = "149159735",
+				["Size"] = 13.1,
+				["Position"] = Vector(20.9697265625, -0.6357421875, 4.4102020263672),
+				["Bone"] = "left calf",
+				["Model"] = "https://www.dropbox.com/s/ti0nkapvgcoqjh1/butcher_l_boot.obj?dl=0",
+				["Material"] = "https://www.dl.dropboxusercontent.com/s/zq96yhlddq5ph05/t_tankDroneSaw_limbs_d.jpg?dl=0",
+			},
+		},
+		[6] = {
+			["children"] = {
+			},
+			["self"] = {
+				["ClassName"] = "model",
+				["Angles"] = Angle(0.7766734957695, -82.358039855957, -177.74905395508),
+				["UniqueID"] = "3205437406",
+				["Size"] = 9.95,
+				["Position"] = Vector(23.8154296875, 1.36474609375, 5.9414672851563),
+				["Bone"] = "left thigh",
+				["Model"] = "https://www.dropbox.com/s/0buwwkqscax7tqt/butcher_l_thigh.obj?dl=0",
+				["Material"] = "https://www.dl.dropboxusercontent.com/s/zq96yhlddq5ph05/t_tankDroneSaw_limbs_d.jpg?dl=0",
+			},
+		},
+		[7] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 0.1,
+						["Bone"] = "left thigh",
+						["UniqueID"] = "1333357935",
+						["ClassName"] = "bone",
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 0.1,
+						["Bone"] = "spine 1",
+						["UniqueID"] = "3026036496",
+						["ClassName"] = "bone",
+					},
+				},
+				[3] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "bone",
+						["UniqueID"] = "1504433274",
+						["Bone"] = "right finger 22",
+						["Size"] = 0.1,
+						["Position"] = Vector(0, 0, 0.20000000298023),
+					},
+				},
+				[4] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "bone",
+						["UniqueID"] = "828002716",
+						["Bone"] = "left finger 2",
+						["Size"] = 0.1,
+						["Position"] = Vector(0, 0, 0.20000000298023),
+					},
+				},
+				[5] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 0.1,
+						["Bone"] = "left bicep",
+						["UniqueID"] = "3020613758",
+						["ClassName"] = "bone",
+					},
+				},
+				[6] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "bone",
+						["UniqueID"] = "1281639844",
+						["Bone"] = "left finger 12",
+						["Size"] = 0.1,
+						["Position"] = Vector(0, 0, 0.20000000298023),
+					},
+				},
+				[7] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "bone",
+						["UniqueID"] = "1028646505",
+						["Bone"] = "right finger 41",
+						["Size"] = 0.1,
+						["Position"] = Vector(0, 0, 0.20000000298023),
+					},
+				},
+				[8] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 0.75,
+						["Bone"] = "right upperarm",
+						["UniqueID"] = "763492572",
+						["ClassName"] = "bone",
+					},
+				},
+				[9] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 0.1,
+						["Bone"] = "right foot",
+						["UniqueID"] = "1170070311",
+						["ClassName"] = "bone",
+					},
+				},
+				[10] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "bone",
+						["UniqueID"] = "2242301361",
+						["Bone"] = "left ulna",
+						["Size"] = 0.1,
+						["Position"] = Vector(0, 0, 0.20000000298023),
+					},
+				},
+				[11] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "bone",
+						["UniqueID"] = "1425542919",
+						["Bone"] = "right finger 2",
+						["Size"] = 0.1,
+						["Position"] = Vector(0, 0, 0.20000000298023),
+					},
+				},
+				[12] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 0.1,
+						["Bone"] = "spine",
+						["UniqueID"] = "3084913421",
+						["ClassName"] = "bone",
+					},
+				},
+				[13] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "bone",
+						["UniqueID"] = "1778956894",
+						["Bone"] = "right finger 4",
+						["Size"] = 0.1,
+						["Position"] = Vector(0, 0, 0.20000000298023),
+					},
+				},
+				[14] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "bone",
+						["UniqueID"] = "2007467481",
+						["Bone"] = "left finger 31",
+						["Size"] = 0.1,
+						["Position"] = Vector(0, 0, 0.20000000298023),
+					},
+				},
+				[15] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 0.1,
+						["Bone"] = "spine 2",
+						["UniqueID"] = "1991681121",
+						["ClassName"] = "bone",
+					},
+				},
+				[16] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "bone",
+						["UniqueID"] = "3430410240",
+						["Bone"] = "right finger 3",
+						["Size"] = 0.1,
+						["Position"] = Vector(0, 0, 0.20000000298023),
+					},
+				},
+				[17] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 0.025,
+						["Bone"] = "right calf",
+						["UniqueID"] = "2413492289",
+						["ClassName"] = "bone",
+					},
+				},
+				[18] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "bone",
+						["UniqueID"] = "1501510975",
+						["Bone"] = "left hand",
+						["Size"] = 0.1,
+						["Position"] = Vector(0, 0, 0.20000000298023),
+					},
+				},
+				[19] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "bone",
+						["UniqueID"] = "2695223525",
+						["Bone"] = "left finger 0",
+						["Size"] = 0.1,
+						["Position"] = Vector(0, 0, 0.20000000298023),
+					},
+				},
+				[20] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "bone",
+						["UniqueID"] = "1002910909",
+						["Bone"] = "right finger 42",
+						["Size"] = 0.1,
+						["Position"] = Vector(0, 0, 0.20000000298023),
+					},
+				},
+				[21] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "bone",
+						["UniqueID"] = "3882865017",
+						["Bone"] = "left finger 3",
+						["Size"] = 0.1,
+						["Position"] = Vector(0, 0, 0.20000000298023),
+					},
+				},
+				[22] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "bone",
+						["UniqueID"] = "664869061",
+						["Bone"] = "right finger 31",
+						["Size"] = 0.1,
+						["Position"] = Vector(0, 0, 0.20000000298023),
+					},
+				},
+				[23] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "bone",
+						["UniqueID"] = "83025149",
+						["Bone"] = "left finger 32",
+						["Size"] = 0.1,
+						["Position"] = Vector(0, 0, 0.20000000298023),
+					},
+				},
+				[24] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "bone",
+						["UniqueID"] = "3207244192",
+						["Bone"] = "left finger 21",
+						["Size"] = 0.1,
+						["Position"] = Vector(0, 0, 0.20000000298023),
+					},
+				},
+				[25] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "bone",
+						["UniqueID"] = "122223604",
+						["Bone"] = "right finger 32",
+						["Size"] = 0.1,
+						["Position"] = Vector(0, 0, 0.20000000298023),
+					},
+				},
+				[26] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "bone",
+						["UniqueID"] = "2549798618",
+						["Bone"] = "right finger 1",
+						["Size"] = 0.1,
+						["Position"] = Vector(0, 0, 0.20000000298023),
+					},
+				},
+				[27] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 0.1,
+						["Bone"] = "pelvis",
+						["UniqueID"] = "3798088330",
+						["ClassName"] = "bone",
+					},
+				},
+				[28] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "bone",
+						["UniqueID"] = "1853982344",
+						["Bone"] = "left finger 1",
+						["Size"] = 0.1,
+						["Position"] = Vector(0, 0, 0.20000000298023),
+					},
+				},
+				[29] = {
+					["children"] = {
+					},
+					["self"] = {
+						["UniqueID"] = "2230742091",
+						["Bone"] = "right forearm",
+						["Position"] = Vector(0.0009765625, -1.474609375, 0.5667724609375),
+						["ClassName"] = "bone",
+					},
+				},
+				[30] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "bone",
+						["UniqueID"] = "566581160",
+						["Bone"] = "left finger 4",
+						["Size"] = 0.1,
+						["Position"] = Vector(0, 0, 0.20000000298023),
+					},
+				},
+				[31] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 0.1,
+						["Bone"] = "right pectoral",
+						["UniqueID"] = "2824064806",
+						["ClassName"] = "bone",
+					},
+				},
+				[32] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "bone",
+						["UniqueID"] = "316466728",
+						["Bone"] = "left finger 11",
+						["Size"] = 0.1,
+						["Position"] = Vector(0, 0, 0.20000000298023),
+					},
+				},
+				[33] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "bone",
+						["UniqueID"] = "3282393906",
+						["Bone"] = "left finger 22",
+						["Size"] = 0.1,
+						["Position"] = Vector(0, 0, 0.20000000298023),
+					},
+				},
+				[34] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "bone",
+						["UniqueID"] = "2059242053",
+						["Bone"] = "right hand",
+						["Size"] = 0.1,
+						["Position"] = Vector(0, 0, 0.20000000298023),
+					},
+				},
+				[35] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "bone",
+						["UniqueID"] = "912267348",
+						["Bone"] = "right ulna",
+						["Size"] = 0.1,
+						["Position"] = Vector(0, 0, 0.20000000298023),
+					},
+				},
+				[36] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "bone",
+						["UniqueID"] = "1192676369",
+						["Bone"] = "right finger 21",
+						["Size"] = 0.1,
+						["Position"] = Vector(0, 0, 0.20000000298023),
+					},
+				},
+				[37] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 0.1,
+						["Bone"] = "right toe",
+						["UniqueID"] = "1929753801",
+						["ClassName"] = "bone",
+					},
+				},
+				[38] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "bone",
+						["UniqueID"] = "2586435221",
+						["Bone"] = "left finger 42",
+						["Size"] = 0.1,
+						["Position"] = Vector(0, 0, 0.20000000298023),
+					},
+				},
+				[39] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "bone",
+						["UniqueID"] = "2339474187",
+						["Bone"] = "right finger 01",
+						["Size"] = 0.1,
+						["Position"] = Vector(0, 0, 0.20000000298023),
+					},
+				},
+				[40] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "bone",
+						["UniqueID"] = "3955577685",
+						["Bone"] = "right finger 12",
+						["Size"] = 0.1,
+						["Position"] = Vector(0, 0, 0.20000000298023),
+					},
+				},
+				[41] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "bone",
+						["UniqueID"] = "4111175681",
+						["Bone"] = "left finger 01",
+						["Size"] = 0.1,
+						["Position"] = Vector(0, 0, 0.20000000298023),
+					},
+				},
+				[42] = {
+					["children"] = {
+					},
+					["self"] = {
+						["UniqueID"] = "2802568998",
+						["Bone"] = "left forearm",
+						["Position"] = Vector(-0.0048828125, 0.000244140625, -2.1075439453125),
+						["ClassName"] = "bone",
+					},
+				},
+				[43] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 0.1,
+						["Bone"] = "left clavicle",
+						["UniqueID"] = "2395000530",
+						["ClassName"] = "bone",
+					},
+				},
+				[44] = {
+					["children"] = {
+					},
+					["self"] = {
+						["EditorExpand"] = true,
+						["Position"] = Vector(0, 0, 0.20000000298023),
+						["Size"] = 0.1,
+						["Bone"] = "left finger 02",
+						["UniqueID"] = "1938606526",
+						["ClassName"] = "bone",
+					},
+				},
+				[45] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 0.1,
+						["Bone"] = "right shoulder",
+						["UniqueID"] = "3908744845",
+						["ClassName"] = "bone",
+					},
+				},
+				[46] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 0.1,
+						["Bone"] = "left pectoral",
+						["UniqueID"] = "2660219017",
+						["ClassName"] = "bone",
+					},
+				},
+				[47] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "bone",
+						["UniqueID"] = "3157588490",
+						["Bone"] = "left finger 41",
+						["Size"] = 0.1,
+						["Position"] = Vector(0, 0, 0.20000000298023),
+					},
+				},
+				[48] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 0.1,
+						["Bone"] = "left toe",
+						["UniqueID"] = "344808107",
+						["ClassName"] = "bone",
+					},
+				},
+				[49] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 0.1,
+						["Bone"] = "right clavicle",
+						["UniqueID"] = "2683685177",
+						["ClassName"] = "bone",
+					},
+				},
+				[50] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 0.1,
+						["Bone"] = "spine 4",
+						["UniqueID"] = "2438421878",
+						["ClassName"] = "bone",
+					},
+				},
+				[51] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 0.1,
+						["Bone"] = "left shoulder",
+						["UniqueID"] = "2733521795",
+						["ClassName"] = "bone",
+					},
+				},
+				[52] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "bone",
+						["UniqueID"] = "1984574136",
+						["Bone"] = "right finger 02",
+						["Size"] = 0.1,
+						["Position"] = Vector(0, 0, 0.20000000298023),
+					},
+				},
+				[53] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 0.1,
+						["Bone"] = "left calf",
+						["UniqueID"] = "2385280215",
+						["ClassName"] = "bone",
+					},
+				},
+				[54] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "bone",
+						["UniqueID"] = "74385359",
+						["Bone"] = "right finger 0",
+						["Size"] = 0.1,
+						["Position"] = Vector(0, 0, 0.20000000298023),
+					},
+				},
+				[55] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 0.1,
+						["Bone"] = "right bicep",
+						["UniqueID"] = "1248350678",
+						["ClassName"] = "bone",
+					},
+				},
+				[56] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 0.1,
+						["Bone"] = "right thigh",
+						["UniqueID"] = "1713597640",
+						["ClassName"] = "bone",
+					},
+				},
+				[57] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 0.1,
+						["Bone"] = "left foot",
+						["UniqueID"] = "19761518",
+						["ClassName"] = "bone",
+					},
+				},
+				[58] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "bone",
+						["UniqueID"] = "2805375466",
+						["Bone"] = "right finger 11",
+						["Size"] = 0.1,
+						["Position"] = Vector(0, 0, 0.20000000298023),
+					},
+				},
+				[59] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 0.1,
+						["Bone"] = "left upperarm",
+						["UniqueID"] = "1020315777",
+						["ClassName"] = "bone",
+					},
+				},
+			},
+			["self"] = {
+				["Alpha"] = 0,
+				["ClassName"] = "entity",
+				["UniqueID"] = "3418408822",
+				["Color"] = Vector(0, 0, 0),
+				["Model"] = "models/pac/male/base_male.mdl",
+				["Size"] = 1.775,
+			},
+		},
+		[8] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["BaseTexturePosition"] = Vector(0.30000001192093, 0, 0.10000000149012),
+								["UniqueID"] = "2482134508",
+								["BaseTextureAngle"] = -0.025,
+								["BaseTextureScale"] = Vector(0.80000001192093, 0.80000001192093, 1),
+								["ClassName"] = "material",
+								["BaseTextureAngleCenter"] = Vector(0.89999997615814, 1.7999999523163, 0),
+							},
+						},
+					},
+					["self"] = {
+						["Material"] = "https://www.dl.dropboxusercontent.com/s/4834wjx6bk5kuev/t_tankDroneSaw_saw_s.jpg?dl=0",
+						["UniqueID"] = "1859845631",
+						["ClassName"] = "model",
+						["Size"] = 7.625,
+						["Position"] = Vector(12.69091796875, 7.53369140625, 26.5107421875),
+						["Model"] = "https://www.dropbox.com/s/7tc2knaq4lk68l3/butcher_saw_l.obj?dl=0",
+						["Angles"] = Angle(-48.529792785645, -156.34396362305, -121.37805938721),
+					},
+				},
+			},
+			["self"] = {
+				["ClassName"] = "model",
+				["Angles"] = Angle(57.143589019775, -62.792491912842, -77.512855529785),
+				["UniqueID"] = "2796559016",
+				["Size"] = 6.975,
+				["Position"] = Vector(25.5361328125, -3.486572265625, 11.053344726563),
+				["Bone"] = "left upperarm",
+				["Model"] = "https://www.dropbox.com/s/7ol4h7qo4jxtwho/butcher_l_forearm.obj?dl=0",
+				["Material"] = "https://www.dl.dropboxusercontent.com/s/zq96yhlddq5ph05/t_tankDroneSaw_limbs_d.jpg?dl=0",
+			},
+		},
+		[9] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["BaseTexturePosition"] = Vector(0.30000001192093, 0, 0.10000000149012),
+								["UniqueID"] = "4102747774",
+								["BaseTextureAngle"] = -0.025,
+								["BaseTextureScale"] = Vector(0.80000001192093, 0.80000001192093, 1),
+								["ClassName"] = "material",
+								["BaseTextureAngleCenter"] = Vector(0.89999997615814, 1.7999999523163, 0),
+							},
+						},
+					},
+					["self"] = {
+						["Material"] = "https://www.dl.dropboxusercontent.com/s/4834wjx6bk5kuev/t_tankDroneSaw_saw_s.jpg?dl=0",
+						["UniqueID"] = "3169547834",
+						["ClassName"] = "model",
+						["Size"] = 7.625,
+						["Position"] = Vector(3.7041015625, 1.297607421875, 25.810546875),
+						["Model"] = "https://www.dropbox.com/s/7tc2knaq4lk68l3/butcher_saw_l.obj?dl=0",
+						["Angles"] = Angle(-35.837753295898, 154.0447845459, -103.28324890137),
+					},
+				},
+			},
+			["self"] = {
+				["ClassName"] = "model",
+				["Angles"] = Angle(38.849857330322, 109.55335998535, 73.386840820313),
+				["UniqueID"] = "1199607896",
+				["Size"] = 6.975,
+				["Position"] = Vector(28.939453125, -0.25653076171875, -10.494384765625),
+				["Bone"] = "right upperarm",
+				["Model"] = "https://www.dropbox.com/s/wupwcueyghcl923/butcher_r_forearm.obj?dl=0",
+				["Material"] = "https://www.dl.dropboxusercontent.com/s/zq96yhlddq5ph05/t_tankDroneSaw_limbs_d.jpg?dl=0",
+			},
+		},
+		[10] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "2933429522",
+						["Event"] = "is_flashlight_on",
+					},
+				},
+			},
+			["self"] = {
+				["Position"] = Vector(-9.96875, 12.844635009766, -0.032501220703125),
+				["Model"] = "https://www.dropbox.com/s/twjxk64wbhjyz6i/butcher_core.obj?dl=0",
+				["ClassName"] = "model",
+				["Angles"] = Angle(-86.899536132813, 72.669357299805, -150.31774902344),
+				["Size"] = 9.775,
+				["Material"] = "https://www.dl.dropboxusercontent.com/s/3jftk0caqgtl9xe/t_prpInt_poisonRef_d.jpg?dl=0",
+				["Fullbright"] = true,
+				["Bone"] = "spine 1",
+				["Brightness"] = 2.2,
+				["UniqueID"] = "2545340728",
+			},
+		},
+	},
+	["self"] = {
+		["Name"] = "my outfit",
+		["ClassName"] = "group",
+		["UniqueID"] = "3432599651",
+		["Description"] = "add parts to me!",
+	},
+},

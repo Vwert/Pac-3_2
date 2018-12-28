@@ -1,0 +1,258 @@
+[1] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Velocity"] = 47.5,
+								["UniqueID"] = "2203631659",
+								["EndSize"] = 1,
+								["Material"] = "particle/particle_smokegrenade",
+								["Bone"] = "right hand",
+								["NumberParticles"] = 18.4,
+								["Gravity"] = Vector(0, 0, 0),
+								["Position"] = Vector(8.39013671875, 1.939453125, 3.5830078125),
+								["PositionSpread"] = 0.1,
+								["FireDelay"] = 0,
+								["DieTime"] = 0.1,
+								["Angles"] = Angle(7.0009446062613e-05, 17.045738220215, -7.3424533184152e-05),
+								["StartLength"] = 23.1,
+								["Spread"] = 0.4,
+								["EditorExpand"] = true,
+								["Color1"] = Vector(255, 93, 0),
+								["StartSize"] = 9.9,
+								["ClassName"] = "particles",
+							},
+						},
+					},
+					["self"] = {
+						["Arguments"] = "attack@@0.2",
+						["Invert"] = true,
+						["Event"] = "animation_event",
+						["UniqueID"] = "1776573241",
+						["EditorExpand"] = true,
+						["ClassName"] = "event",
+					},
+				},
+			},
+			["self"] = {
+				["Velocity"] = 47.5,
+				["UniqueID"] = "2265264548",
+				["EndSize"] = 1,
+				["Material"] = "sprites/physbeama",
+				["Bone"] = "right hand",
+				["NumberParticles"] = 18.4,
+				["Gravity"] = Vector(0, 0, 0),
+				["Position"] = Vector(8.39013671875, 1.939453125, 3.5830078125),
+				["PositionSpread"] = 0.1,
+				["FireDelay"] = 0,
+				["DieTime"] = 0.1,
+				["Angles"] = Angle(7.0009446062613e-05, 17.045738220215, -7.3424533184152e-05),
+				["StartLength"] = 23.1,
+				["Spread"] = 0.4,
+				["EditorExpand"] = true,
+				["Color1"] = Vector(255, 93, 0),
+				["StartSize"] = 5,
+				["ClassName"] = "particles",
+			},
+		},
+		[2] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Overlapping"] = true,
+								["ClassName"] = "sound",
+								["UniqueID"] = "524900948",
+								["Sound"] = "weapons/alyx_gun/alyx_gun_fire3.wav",
+							},
+						},
+					},
+					["self"] = {
+						["Arguments"] = "attack@@0.1",
+						["Invert"] = true,
+						["Event"] = "animation_event",
+						["UniqueID"] = "537831070",
+						["EditorExpand"] = true,
+						["ClassName"] = "event",
+					},
+				},
+			},
+			["self"] = {
+				["Overlapping"] = true,
+				["ClassName"] = "sound",
+				["UniqueID"] = "1895908012",
+				["EditorExpand"] = true,
+				["Sound"] = "weapons/alyx_gun/alyx_gun_fire3.wav",
+			},
+		},
+	},
+	["self"] = {
+		["ClassName"] = "group",
+		["UniqueID"] = "1795820724",
+		["Name"] = "shoot",
+	},
+},
+[2] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "45214994",
+						["Event"] = "weapon_class",
+						["Operator"] = "equal",
+						["Arguments"] = "weapon_pistol@@1",
+						["Invert"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["Angles"] = Angle(4.0554252336733e-05, 15.283408164978, 1.7075473124351e-06),
+				["UniqueID"] = "2877485837",
+				["Position"] = Vector(3.48681640625, 0.5234375, -2.478515625),
+				["Bone"] = "right hand",
+				["Model"] = "models/weapons/w_pist_glock18.mdl",
+				["ClassName"] = "model",
+			},
+		},
+		[2] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Walk"] = "walk",
+						["UniqueID"] = "276869306",
+						["ReloadStand"] = "reload",
+						["Jump"] = "idle1",
+						["AttackStandPrimaryfire"] = "shootgun",
+						["Run"] = "run",
+						["ClassName"] = "holdtype",
+						["ReloadCrouch"] = "reload",
+						["CrouchIdle"] = "idle1",
+						["StandIdle"] = "idle1",
+						["AttackCrouchPrimaryfire"] = "shootgun",
+					},
+				},
+			},
+			["self"] = {
+				["Material"] = "models/props_pipes/destroyedpipes01a",
+				["UniqueID"] = "1498014190",
+				["ClassName"] = "entity",
+				["Model"] = "models/hl1bar.mdl",
+				["EditorExpand"] = true,
+			},
+		},
+		[3] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Velocity"] = 1,
+				["UniqueID"] = "1163076555",
+				["DieTime"] = 0.1,
+				["Lighting"] = false,
+				["Color1"] = Vector(0, 161, 255),
+				["FireDelay"] = 0,
+				["ParticleAngleVelocity"] = Vector(0, 0, 0),
+				["EndSize"] = 1,
+				["ClassName"] = "particles",
+				["Position"] = Vector(4.7119140625, 6.0110001564026, 0.79100000858307),
+				["Spread"] = 0,
+				["Material"] = "sprites/light_glow02_add_noz",
+				["Angles"] = Angle(-7.2570760494273e-06, -5.7627501487732, 2.2198117221706e-05),
+				["StartSize"] = 5.5,
+				["Gravity"] = Vector(0, 0, 0),
+			},
+		},
+		[4] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Velocity"] = 1,
+				["UniqueID"] = "794632027",
+				["DieTime"] = 0.1,
+				["Lighting"] = false,
+				["Color1"] = Vector(0, 161, 255),
+				["FireDelay"] = 0,
+				["ParticleAngleVelocity"] = Vector(0, 0, 0),
+				["EndSize"] = 1,
+				["ClassName"] = "particles",
+				["Position"] = Vector(4.7119140625, 6.0110001564026, -1.8090000152588),
+				["Spread"] = 0,
+				["Material"] = "sprites/light_glow02_add_noz",
+				["Angles"] = Angle(-7.2570760494273e-06, -5.7627501487732, 2.2198117221706e-05),
+				["StartSize"] = 5.5,
+				["Gravity"] = Vector(0, 0, 0),
+			},
+		},
+		[5] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Loop"] = true,
+								["ClassName"] = "sound",
+								["UniqueID"] = "1300129579",
+								["Sound"] = "npc/zombie_poison/pz_breathe_loop1.wav",
+							},
+						},
+						[2] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Loop"] = true,
+								["ClassName"] = "sound",
+								["UniqueID"] = "2457546921",
+								["Sound"] = "npc/zombie_poison/pz_breathe_loop1.wav",
+							},
+						},
+					},
+					["self"] = {
+						["Arguments"] = "t",
+						["Invert"] = true,
+						["Event"] = "button",
+						["UniqueID"] = "383772775",
+						["EditorExpand"] = true,
+						["ClassName"] = "event",
+					},
+				},
+			},
+			["self"] = {
+				["BoneMerge"] = true,
+				["UniqueID"] = "1975255591",
+				["OwnerEntity"] = true,
+				["Material"] = "models/props_pipes/destroyedpipes01a",
+				["Name"] = "hlbar",
+				["BlurSpacing"] = 100,
+				["EditorExpand"] = true,
+				["ClassName"] = "model",
+				["BlurLength"] = 100,
+				["Position"] = Vector(0, 0, -39.700000762939),
+				["Color"] = Vector(0, 0, 0),
+				["Bone"] = "",
+				["Model"] = "models/hl1bar.mdl",
+				["Invert"] = true,
+			},
+		},
+	},
+	["self"] = {
+		["Name"] = "my outfit",
+		["ClassName"] = "group",
+		["UniqueID"] = "2814809235",
+		["Description"] = "add parts to me!",
+	},
+},

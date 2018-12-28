@@ -1,0 +1,310 @@
+[1] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "958910767",
+						["Event"] = "weapon_class",
+						["Operator"] = "equal",
+						["Arguments"] = "weapon_357@@1",
+						["Invert"] = true,
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Overlapping"] = true,
+						["ClassName"] = "webaudio",
+						["StopOnHide"] = false,
+						["URL"] = "https://www.dropbox.com/s/ovbpj7rlk4onh2y/dragonfire.wav?dl=1",
+						["UniqueID"] = "2196238559",
+					},
+				},
+				[3] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Overlapping"] = true,
+						["ClassName"] = "webaudio",
+						["StopOnHide"] = false,
+						["URL"] = "https://www.dropbox.com/s/s9hgklkmfug91z3/MLG_Horns_Sound_Effect.mp3?dl=0",
+						["UniqueID"] = "4093903290",
+					},
+				},
+			},
+			["self"] = {
+				["ClassName"] = "event",
+				["UniqueID"] = "2101188322",
+				["Event"] = "animation_event",
+				["Arguments"] = "attack@@0.1",
+				["Invert"] = true,
+			},
+		},
+	},
+	["self"] = {
+		["ClassName"] = "group",
+		["UniqueID"] = "3878136086",
+		["Name"] = "awp fire",
+	},
+},
+[2] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["URL"] = "https://www.dropbox.com/s/hpdygsf9ghk60ok/mom_get_the_camera.mp3?dl=0",
+						["ClassName"] = "webaudio",
+						["UniqueID"] = "4198644197",
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["URL"] = "https://www.dropbox.com/s/hpdygsf9ghk60ok/mom_get_the_camera.mp3?dl=0",
+						["ClassName"] = "webaudio",
+						["UniqueID"] = "976452728",
+					},
+				},
+				[3] = {
+					["children"] = {
+					},
+					["self"] = {
+						["URL"] = "https://www.dropbox.com/s/hpdygsf9ghk60ok/mom_get_the_camera.mp3?dl=0",
+						["ClassName"] = "webaudio",
+						["UniqueID"] = "976452728",
+					},
+				},
+				[4] = {
+					["children"] = {
+					},
+					["self"] = {
+						["URL"] = "https://www.dropbox.com/s/hpdygsf9ghk60ok/mom_get_the_camera.mp3?dl=0",
+						["ClassName"] = "webaudio",
+						["UniqueID"] = "976452728",
+					},
+				},
+			},
+			["self"] = {
+				["Event"] = "is_flashlight_on",
+				["ClassName"] = "event",
+				["Invert"] = true,
+				["UniqueID"] = "2257746970",
+			},
+		},
+	},
+	["self"] = {
+		["ClassName"] = "group",
+		["UniqueID"] = "4004932957",
+		["Name"] = "oh!",
+	},
+},
+[3] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(-7.0689997673035, -77.077003479004, -174.09100341797),
+						["UniqueID"] = "447615022",
+						["ClassName"] = "model",
+						["Position"] = Vector(-0.6453857421875, -1.7568359375, -1.0927734375),
+						["Bone"] = "right hand",
+						["Model"] = "https://www.dropbox.com/s/eczzpjb3ohx7p8h/w_awp.obj?dl=0",
+						["Material"] = "http://dl.dropboxusercontent.com/s/x76xs7e50x7bglw/awp.jpg?dl=1",
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Walk"] = "walk_crossbow",
+						["UniqueID"] = "4180379589",
+						["ReloadStand"] = "idle_crossbow",
+						["Jump"] = "jump_crossbow",
+						["AttackStandPrimaryfire"] = "range_crossbow",
+						["Run"] = "run_crossbow",
+						["ClassName"] = "holdtype",
+						["ReloadCrouch"] = "idle_crossbow",
+						["CrouchIdle"] = "cidle_crossbow",
+						["CrouchWalk"] = "cwalk_crossbow",
+						["StandIdle"] = "idle_crossbow",
+						["AttackCrouchPrimaryfire"] = "range_crossbow",
+					},
+				},
+			},
+			["self"] = {
+				["ClassName"] = "event",
+				["UniqueID"] = "2186935251",
+				["Event"] = "weapon_class",
+				["Operator"] = "equal",
+				["Arguments"] = "weapon_357@@1",
+				["Invert"] = true,
+			},
+		},
+	},
+	["self"] = {
+		["ClassName"] = "group",
+		["UniqueID"] = "288473833",
+		["Name"] = "awp",
+	},
+},
+[4] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(-5.9337271522963e-005, -19.913524627686, -4.6103778004181e-005),
+						["ClassName"] = "clip",
+						["UniqueID"] = "567313555",
+						["Position"] = Vector(-2.4649999141693, -0.3125, -0.00390625),
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "model",
+						["UniqueID"] = "3145355336",
+						["Model"] = "models/player/items/humans/top_hat.mdl",
+						["Angles"] = Angle(-2.1528325080872, -89.888458251953, -89.566505432129),
+						["Position"] = Vector(1.7607421875, -0.41552734375, -0.000732421875),
+						["Brightness"] = 396.3,
+						["Scale"] = Vector(0.89999997615814, 1, 0.69999998807907),
+					},
+				},
+				[3] = {
+					["children"] = {
+					},
+					["self"] = {
+						["UniqueID"] = "1743053672",
+						["Name"] = "default 2",
+						["Scale"] = Vector(1, 0.89999997615814, 0.30000001192093),
+						["ClassName"] = "model",
+						["Size"] = 0.125,
+						["Position"] = Vector(-0.20200000703335, 1.0720000267029, 0.0049999998882413),
+						["Angles"] = Angle(4.2688685653047e-007, -1.878302100522e-005, -1.1023155450821),
+						["Bone"] = "eyes",
+						["Model"] = "models/pac/default.mdl",
+						["Material"] = "models/ihvtest/eyeball_l",
+					},
+				},
+				[4] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Position"] = Vector(-1.2119140625, -0.254638671875, 0.27678680419922),
+						["Name"] = "circlex",
+						["Scale"] = Vector(1.1000000238419, 0.80000001192093, 11.199999809265),
+						["Material"] = "models/ihvtest/eyeball_l",
+						["ClassName"] = "model",
+						["Size"] = 0.05,
+						["PositionOffset"] = Vector(0.20000000298023, 0, 0),
+						["Color"] = Vector(0, 0, 0),
+						["Angles"] = Angle(17.935340881348, 71.18399810791, 95.599998474121),
+						["Model"] = "models/hunter/tubes/circle2x2.mdl",
+						["UniqueID"] = "3639806270",
+					},
+				},
+				[5] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(86.866287231445, 1.9522372895153e-005, 3.1235787901096e-005),
+						["UniqueID"] = "528677042",
+						["ClassName"] = "model",
+						["Position"] = Vector(1.2009999752045, 0.2061767578125, 0.0029296875),
+						["Bone"] = "eyes",
+						["Model"] = "https://www.dropbox.com/s/oshzl3o2imthvhb/deal.obj?dl=1",
+						["Material"] = "http://dl.dropboxusercontent.com/s/7sufsd8fyhb8lp9/dwi.jpg?dl=1",
+					},
+				},
+				[6] = {
+					["children"] = {
+					},
+					["self"] = {
+						["UniqueID"] = "831509304",
+						["Name"] = "default 1",
+						["Scale"] = Vector(1, 0.89999997615814, 0.30000001192093),
+						["ClassName"] = "model",
+						["Size"] = 0.125,
+						["Position"] = Vector(-0.30199998617172, -1.1280000209808, 0.0049999998882413),
+						["Angles"] = Angle(4.2688685653047e-007, -1.878302100522e-005, -1.1023155450821),
+						["Bone"] = "eyes",
+						["Model"] = "models/pac/default.mdl",
+						["Material"] = "models/ihvtest/eyeball_l",
+					},
+				},
+				[7] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Operator"] = "equal or below",
+						["ClassName"] = "event",
+						["UniqueID"] = "3663359971",
+						["Event"] = "owner_health",
+					},
+				},
+				[8] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Material"] = "http://dl.dropboxusercontent.com/s/5qvvsag43ogl2ag/joint.jpg?dl=0",
+						["UniqueID"] = "884463868",
+						["ClassName"] = "model",
+						["Position"] = Vector(0.595703125, -4.1962890625, -0.1298828125),
+						["Model"] = "https://www.dropbox.com/s/m3w63s8cm2z46kw/sigara.obj?dl=0",
+						["Angles"] = Angle(-0.0083819236606359, 2.6988687515259, -164.42778015137),
+					},
+				},
+			},
+			["self"] = {
+				["Angles"] = Angle(-4.4279999732971, -80.829002380371, -90.99299621582),
+				["DoubleFace"] = true,
+				["Model"] = "models/player/group01/male_07.mdl",
+				["Position"] = Vector(-63.139999389648, -10.812999725342, 1.0049999952316),
+				["UniqueID"] = "1778871579",
+				["Name"] = "male ",
+				["ClassName"] = "model",
+			},
+		},
+		[2] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "bone",
+						["UniqueID"] = "3436261415",
+						["Size"] = 0.1,
+					},
+				},
+			},
+			["self"] = {
+				["Color"] = Vector(0, 0, 0),
+				["ClassName"] = "entity",
+				["UniqueID"] = "407490045",
+				["Model"] = "models/player/gman_high.mdl",
+			},
+		},
+	},
+	["self"] = {
+		["Name"] = "my outfit",
+		["ClassName"] = "group",
+		["UniqueID"] = "359142832",
+		["Description"] = "add parts to me!",
+	},
+},

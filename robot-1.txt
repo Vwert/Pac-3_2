@@ -1,0 +1,707 @@
+[1] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "sound",
+						["UniqueID"] = "4159009892",
+						["Pitch"] = 0.972,
+						["Loop"] = true,
+						["Sound"] = "ambient/fire/fire_med_loop1.wav",
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "shake",
+						["Amplitude"] = 10,
+						["UniqueID"] = "1059440754",
+					},
+				},
+				[3] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Velocity"] = 384.7,
+						["UniqueID"] = "4069994803",
+						["Lighting"] = false,
+						["FireDelay"] = 0,
+						["EndSize"] = 1,
+						["ClassName"] = "particles",
+						["DieTime"] = 12.4,
+						["Position"] = Vector(17.7021484375, 46.109252929688, -54.572692871094),
+						["Material"] = "particle/particle_smokegrenade",
+						["Bone"] = "right hand",
+						["StartSize"] = 39.6,
+						["Angles"] = Angle(70.63500213623, 75.284530639648, 84.159523010254),
+					},
+				},
+				[4] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Velocity"] = 384.7,
+						["UniqueID"] = "4238211622",
+						["Lighting"] = false,
+						["FireDelay"] = 0,
+						["DieTime"] = 12.4,
+						["EndSize"] = 1,
+						["ClassName"] = "particles",
+						["RandomRollSpeed"] = 100,
+						["Position"] = Vector(17.7021484375, 46.109252929688, -54.572692871094),
+						["Material"] = "sprites/flamelet1",
+						["Bone"] = "right hand",
+						["StartSize"] = 28.7,
+						["Angles"] = Angle(70.63500213623, 75.284530639648, 84.159523010254),
+					},
+				},
+				[5] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Overlapping"] = true,
+						["ClassName"] = "sound",
+						["UniqueID"] = "4223345133",
+						["Sound"] = "ambient/fire/ignite.wav",
+					},
+				},
+				[6] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "light",
+						["Position"] = Vector(0, 0, 74.291015625),
+						["Color"] = Vector(255, 191, 0),
+						["Bone"] = "",
+						["Size"] = 223.075,
+						["UniqueID"] = "1764709646",
+					},
+				},
+			},
+			["self"] = {
+				["ClassName"] = "event",
+				["UniqueID"] = "613038897",
+				["Event"] = "button",
+				["Arguments"] = "g",
+				["Invert"] = true,
+			},
+		},
+	},
+	["self"] = {
+		["ClassName"] = "group",
+		["UniqueID"] = "2857109935",
+		["Name"] = "flame",
+	},
+},
+[2] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Material"] = "models/props_combine/stasisshield_sheet",
+						["UniqueID"] = "1631596881",
+						["ClassName"] = "model",
+						["Size"] = 1.075,
+						["Position"] = Vector(15.668000221252, -197.03999328613, 18.003999710083),
+						["Model"] = "models/props_phx/construct/metal_plate4x4_tri.mdl",
+						["Angles"] = Angle(-35.808769226074, 106.30947875977, 93.883438110352),
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Loop"] = true,
+						["ClassName"] = "sound",
+						["UniqueID"] = "84716539",
+						["Sound"] = "npc/scanner/scanner_scan_loop1.wav",
+					},
+				},
+			},
+			["self"] = {
+				["ClassName"] = "event",
+				["UniqueID"] = "3859483759",
+				["Event"] = "button",
+				["Arguments"] = "h",
+				["Invert"] = true,
+			},
+		},
+	},
+	["self"] = {
+		["ClassName"] = "group",
+		["UniqueID"] = "3899223653",
+		["Name"] = "scan",
+	},
+},
+[3] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Position"] = Vector(0, 0, 47.6669921875),
+				["Angles"] = Angle(-88.169776916504, 7.309599823202e-007, 0),
+				["UniqueID"] = "368749459",
+				["Size"] = 0.825,
+				["ClassName"] = "model",
+				["Bone"] = "",
+				["Model"] = "models/props_combine/headcrabcannister01a.mdl",
+				["Scale"] = Vector(0.40000000596046, 1, 1),
+			},
+		},
+		[2] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Velocity"] = 0.1,
+				["UniqueID"] = "2392166184",
+				["DieTime"] = 1.2,
+				["RandomRollSpeed"] = 2.4,
+				["Lighting"] = false,
+				["FireDelay"] = 0,
+				["ParticleAngleVelocity"] = Vector(0, 0, 0),
+				["EndSize"] = 1,
+				["ClassName"] = "particles",
+				["3D"] = true,
+				["Position"] = Vector(0.71133422851563, -4.4310913085938, 2.0048828125),
+				["Material"] = "particle/Particle_Ring_Wave_Additive",
+				["Bone"] = "",
+				["StartSize"] = 119.7,
+				["Angles"] = Angle(5.4561996459961, 0.012171476148069, -179.90391540527),
+			},
+		},
+		[3] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Angles"] = Angle(-37.836242675781, -20.42162322998, 12.865010261536),
+				["UniqueID"] = "60220347",
+				["Position"] = Vector(-2.01171875, 9.2467651367188, -7.8519287109375),
+				["Size"] = 0.35,
+				["Bone"] = "right upperarm",
+				["Model"] = "models/props_combine/headcrabcannister01a.mdl",
+				["ClassName"] = "model",
+			},
+		},
+		[4] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Angles"] = Angle(33.440078735352, -5.672089099884, 12.165114402771),
+				["UniqueID"] = "2738176366",
+				["Position"] = Vector(-0.2978515625, 6.46142578125, 5.708984375),
+				["Size"] = 0.35,
+				["Bone"] = "left upperarm",
+				["Model"] = "models/props_combine/headcrabcannister01a.mdl",
+				["ClassName"] = "model",
+			},
+		},
+		[5] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Position"] = Vector(-6.458984375, 5.83740234375, 13.2353515625),
+				["Angles"] = Angle(80.338088989258, 65.310577392578, -136.20269775391),
+				["UniqueID"] = "1947305551",
+				["Size"] = 0.825,
+				["ClassName"] = "model",
+				["Bone"] = "left forearm",
+				["Model"] = "models/props_c17/FurnitureBoiler001a.mdl",
+				["Scale"] = Vector(0.69999998807907, 0.69999998807907, 0.69999998807907),
+			},
+		},
+		[6] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Operator"] = "equal",
+						["ClassName"] = "event",
+						["UniqueID"] = "362151734",
+						["Event"] = "speed",
+					},
+				},
+			},
+			["self"] = {
+				["ClassName"] = "sound",
+				["UniqueID"] = "1472855791",
+				["Pitch"] = 0.352,
+				["EditorExpand"] = true,
+				["Loop"] = true,
+				["Sound"] = "npc/combine_gunship/dropship_engine_distant_loop1.wav",
+			},
+		},
+		[7] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Alpha"] = 0,
+				["ClassName"] = "entity",
+				["UniqueID"] = "1925189593",
+				["Size"] = 1.5,
+			},
+		},
+		[8] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Angles"] = Angle(-6.6655259132385, -1.3573578596115, -161.56455993652),
+				["UniqueID"] = "2047742123",
+				["Position"] = Vector(13.8515625, 32.006469726563, -9.951904296875),
+				["Size"] = 0.825,
+				["Bone"] = "right hand",
+				["Model"] = "models/props_c17/canister_propane01a.mdl",
+				["ClassName"] = "model",
+			},
+		},
+		[9] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(-83.237174987793, -0.00025556719629094, -81.673683166504),
+						["Position"] = Vector(1.0927734375, -12.359130859375, 46.051513671875),
+						["ClassName"] = "model",
+						["Size"] = 1.125,
+						["Model"] = "models/weapons/w_mach_m249para.mdl",
+						["UniqueID"] = "3587426928",
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(-83.237174987793, -0.00028184891561978, 88.222290039063),
+						["Position"] = Vector(1.8271484375, 11.647094726563, 45.9638671875),
+						["ClassName"] = "model",
+						["Size"] = 1.125,
+						["Model"] = "models/weapons/w_mach_m249para.mdl",
+						["UniqueID"] = "709397038",
+					},
+				},
+				[3] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(-83.237174987793, -4.8938392865239e-005, 178.79808044434),
+						["Position"] = Vector(-10.1845703125, 0.4110107421875, 47.3876953125),
+						["ClassName"] = "model",
+						["Size"] = 1.125,
+						["Model"] = "models/weapons/w_mach_m249para.mdl",
+						["UniqueID"] = "3587426928",
+					},
+				},
+				[4] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(-83.237182617188, -0.00010240823758068, 0.0001196273296955),
+						["Position"] = Vector(9.3115234375, -0.0003662109375, 45.075073242188),
+						["ClassName"] = "model",
+						["Size"] = 1.125,
+						["Model"] = "models/weapons/w_mach_m249para.mdl",
+						["UniqueID"] = "3587426928",
+					},
+				},
+			},
+			["self"] = {
+				["Angles"] = Angle(1.7075474261219e-006, 3.20165128187e-007, -22.979375839233),
+				["UniqueID"] = "3994559074",
+				["Position"] = Vector(-17.763671875, 15.995483398438, -20.478515625),
+				["EditorExpand"] = true,
+				["Bone"] = "left hand",
+				["Model"] = "models/props_c17/oildrum001.mdl",
+				["ClassName"] = "model",
+			},
+		},
+		[10] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Position"] = Vector(-3.826171875, 11.0009765625, -19.319580078125),
+				["Angles"] = Angle(77.556137084961, 169.91680908203, -21.570875167847),
+				["UniqueID"] = "42985244",
+				["Size"] = 0.825,
+				["ClassName"] = "model",
+				["Bone"] = "right forearm",
+				["Model"] = "models/props_c17/FurnitureBoiler001a.mdl",
+				["Scale"] = Vector(0.69999998807907, 0.69999998807907, 0.89999997615814),
+			},
+		},
+		[11] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Walk"] = "idle_all_01",
+				["UniqueID"] = "4104982454",
+				["ActLand"] = "idle_all_01",
+				["AttackStandPrimaryfire"] = "idle_all_01",
+				["Run"] = "idle_all_01",
+				["CrouchIdle"] = "idle_all_01",
+				["StandIdle"] = "idle_all_01",
+				["Fallback"] = "idle_all_01",
+				["ActRangeAttack1"] = "idle_all_01",
+				["Noclip"] = "idle_all_01",
+				["SwimIdle"] = "idle_all_01",
+				["ReloadStand"] = "idle_all_01",
+				["AttackCrouchPrimaryfire"] = "idle_all_01",
+				["ClassName"] = "holdtype",
+				["Swim"] = "idle_all_01",
+				["ReloadCrouch"] = "idle_all_01",
+				["CrouchWalk"] = "idle_all_01",
+				["Jump"] = "idle_all_01",
+				["Sitting"] = "idle_all_01",
+				["Air"] = "idle_all_01",
+			},
+		},
+		[12] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(-84.378494262695, 149.96781921387, 75.505241394043),
+						["Position"] = Vector(-50.615417480469, -40.6396484375, 11.677612304688),
+						["ClassName"] = "model",
+						["Size"] = 0.675,
+						["UniqueID"] = "813797492",
+						["Model"] = "models/props_c17/pulleyhook01.mdl",
+						["Scale"] = Vector(0.60000002384186, 0.80000001192093, 0.60000002384186),
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(-84.378494262695, 149.96781921387, 75.505241394043),
+						["Position"] = Vector(-48.931762695313, -41.609375, -8.0794677734375),
+						["ClassName"] = "model",
+						["Size"] = 0.675,
+						["UniqueID"] = "316116942",
+						["Model"] = "models/props_c17/pulleyhook01.mdl",
+						["Scale"] = Vector(0.60000002384186, 0.80000001192093, 0.60000002384186),
+					},
+				},
+			},
+			["self"] = {
+				["Angles"] = Angle(-1.2806603990612e-006, 98.753448486328, -3.5071418096777e-005),
+				["UniqueID"] = "3592515776",
+				["Position"] = Vector(4.3310546875, 4.0552978515625, -0.0018310546875),
+				["ClassName"] = "model",
+				["Bone"] = "spine 1",
+				["Model"] = "models/props_combine/headcrabcannister01a.mdl",
+				["Scale"] = Vector(0.5, 1, 1),
+			},
+		},
+		[13] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Position"] = Vector(13.0029296875, 30.837829589844, -5.415771484375),
+				["Angles"] = Angle(72.443077087402, 73.902786254883, 84.218139648438),
+				["UniqueID"] = "1842210609",
+				["Size"] = 0.675,
+				["ClassName"] = "model",
+				["Bone"] = "right hand",
+				["Model"] = "models/props_combine/headcrabcannister01a.mdl",
+				["Scale"] = Vector(1.1000000238419, 0.69999998807907, 0.69999998807907),
+			},
+		},
+		[14] = {
+			["children"] = {
+			},
+			["self"] = {
+				["ClassName"] = "model",
+				["Angles"] = Angle(0, 1.0672170702719e-007, -179.92900085449),
+				["UniqueID"] = "1677519932",
+				["Material"] = "models/props_combine/portalball001_sheet",
+				["Position"] = Vector(-0.00079345703125, -0.046630859375, 38.3203125),
+				["Bone"] = "",
+				["Model"] = "models/props_phx/construct/metal_dome360.mdl",
+				["Scale"] = Vector(1, 1, 0.69999998807907),
+			},
+		},
+		[15] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Velocity"] = -3.2,
+						["UniqueID"] = "4017737944",
+						["DieTime"] = 0.1,
+						["Lighting"] = false,
+						["FireDelay"] = 0,
+						["RandomRollSpeed"] = 100,
+						["EndSize"] = 1,
+						["ClassName"] = "particles",
+						["Position"] = Vector(0.0478515625, -0.0006103515625, 15.780883789063),
+						["NumberParticles"] = 7,
+						["Material"] = "sprites/glow04_noz",
+						["Angles"] = Angle(-87.795516967773, -0.00011097774404334, 7.7684424468316e-005),
+						["StartSize"] = 17.5,
+						["RollDelta"] = 100,
+					},
+				},
+			},
+			["self"] = {
+				["Angles"] = Angle(2.2317252159119, 15.061627388, 81.766448974609),
+				["Position"] = Vector(3.06640625, 0.00048828125, -0.0003662109375),
+				["ClassName"] = "model",
+				["Size"] = 0.825,
+				["EditorExpand"] = true,
+				["Model"] = "models/Combine_Helicopter/helicopter_bomb01.mdl",
+				["UniqueID"] = "310899265",
+			},
+		},
+	},
+	["self"] = {
+		["Name"] = "my outfit",
+		["ClassName"] = "group",
+		["UniqueID"] = "862570582",
+		["Description"] = "add parts to me!",
+	},
+},
+[4] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Overlapping"] = true,
+						["ClassName"] = "sound",
+						["UniqueID"] = "777113607",
+						["Sound"] = "npc/metropolice/vo/11-99officerneedsassistance.wav",
+					},
+				},
+			},
+			["self"] = {
+				["ClassName"] = "event",
+				["UniqueID"] = "494439920",
+				["Event"] = "say",
+				["Arguments"] = "yardim@@1",
+				["Invert"] = true,
+			},
+		},
+		[2] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Overlapping"] = true,
+						["ClassName"] = "sound",
+						["UniqueID"] = "4008044663",
+						["Pitch"] = 0.39,
+						["Sound"] = "ambient/alarms/siren.wav",
+					},
+				},
+			},
+			["self"] = {
+				["ClassName"] = "event",
+				["UniqueID"] = "1832823514",
+				["Event"] = "say",
+				["Arguments"] = "alert@@1",
+				["Invert"] = true,
+			},
+		},
+		[3] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Overlapping"] = true,
+						["ClassName"] = "sound",
+						["UniqueID"] = "2380976201",
+						["Pitch"] = 0.365,
+						["Sound"] = "npc/metropolice/vo/lockyourposition.wav",
+					},
+				},
+			},
+			["self"] = {
+				["ClassName"] = "event",
+				["UniqueID"] = "3628163456",
+				["Event"] = "say",
+				["Arguments"] = "hedef@@1",
+				["Invert"] = true,
+			},
+		},
+	},
+	["self"] = {
+		["ClassName"] = "group",
+		["UniqueID"] = "4112232448",
+		["Name"] = "voice",
+	},
+},
+[5] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Overlapping"] = true,
+						["ClassName"] = "sound",
+						["UniqueID"] = "880593680",
+						["Sound"] = "ambient/energy/weld1.wav;ambient/energy/weld2.wav",
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 100.3,
+						["ClassName"] = "light",
+						["UniqueID"] = "1062947693",
+						["Position"] = Vector(17.23046875, -29.6650390625, 0.00048828125),
+					},
+				},
+				[3] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "sunbeams",
+								["UniqueID"] = "3839609478",
+								["Multiplier"] = 0.05,
+							},
+						},
+						[2] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Operator"] = "maybe",
+										["ClassName"] = "event",
+										["UniqueID"] = "2840158209",
+										["Event"] = "timerx",
+									},
+								},
+							},
+							["self"] = {
+								["EditorExpand"] = true,
+								["UniqueID"] = "2889618980",
+								["Duration"] = 1,
+								["Amplitude"] = 10,
+								["ClassName"] = "shake",
+							},
+						},
+						[3] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "sound",
+								["UniqueID"] = "2811434196",
+								["Pitch"] = 0.501,
+								["Loop"] = true,
+								["Sound"] = "ambient/energy/electric_loop.wav",
+							},
+						},
+						[4] = {
+							["children"] = {
+							},
+							["self"] = {
+								["UniqueID"] = "4096289866",
+								["Lighting"] = false,
+								["FireDelay"] = 0,
+								["EndSize"] = 1,
+								["ClassName"] = "particles",
+								["DieTime"] = 0.5,
+								["Material"] = "particle/particle_smokegrenade",
+								["StartSize"] = 22.4,
+								["PositionSpread"] = 3.3,
+							},
+						},
+						[5] = {
+							["children"] = {
+							},
+							["self"] = {
+								["ClassName"] = "light",
+								["UniqueID"] = "2757387198",
+								["Size"] = 120.975,
+							},
+						},
+						[6] = {
+							["children"] = {
+							},
+							["self"] = {
+								["UniqueID"] = "1842388142",
+								["Lighting"] = false,
+								["FireDelay"] = 0,
+								["EndSize"] = 0.1,
+								["ClassName"] = "particles",
+								["DieTime"] = 0.7,
+								["Material"] = "trails/laser",
+								["NumberParticles"] = 24.4,
+								["PositionSpread"] = 2.7,
+							},
+						},
+						[7] = {
+							["children"] = {
+							},
+							["self"] = {
+								["UniqueID"] = "3621157125",
+								["Lighting"] = false,
+								["FireDelay"] = 0,
+								["EndSize"] = 0.1,
+								["ClassName"] = "particles",
+								["DieTime"] = 0.7,
+								["Material"] = "trails/laser",
+								["NumberParticles"] = 24.4,
+								["PositionSpread"] = 6.3,
+							},
+						},
+					},
+					["self"] = {
+						["Alpha"] = 0,
+						["ClassName"] = "model",
+						["UniqueID"] = "4219964034",
+						["Bone"] = "hitpos",
+						["Model"] = "models/pac/default.mdl",
+						["EditorExpand"] = true,
+					},
+				},
+				[4] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Material"] = "sprites/physbeama",
+						["Width"] = 20.1,
+						["UniqueID"] = "1824679012",
+						["WidthBend"] = 5.3,
+						["Bend"] = 0,
+						["EndPointUID"] = "4219964034",
+						["ClassName"] = "beam",
+					},
+				},
+			},
+			["self"] = {
+				["ClassName"] = "event",
+				["UniqueID"] = "608021501",
+				["Event"] = "button",
+				["Arguments"] = "t",
+				["Invert"] = true,
+			},
+		},
+	},
+	["self"] = {
+		["ClassName"] = "group",
+		["UniqueID"] = "3293957776",
+		["Name"] = "laser",
+	},
+},

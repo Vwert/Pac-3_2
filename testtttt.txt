@@ -1,0 +1,58 @@
+[1] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Model"] = "models/pac/male/base_male.mdl",
+				["Bone"] = "none",
+				["UniqueID"] = "3764450052",
+				["ClassName"] = "model",
+			},
+		},
+	},
+	["self"] = {
+		["ClassName"] = "group",
+		["UniqueID"] = "510556303",
+		["Hide"] = true,
+		["Name"] = "test",
+		["EditorExpand"] = true,
+	},
+},
+[2] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "453776349",
+						["Event"] = "is_flashlight_on",
+					},
+				},
+			},
+			["self"] = {
+				["DamageType"] = "radiation",
+				["UniqueID"] = "2316443676",
+				["Speed"] = 0,
+				["Bone"] = "",
+				["ClassName"] = "projectile",
+				["EditorExpand"] = true,
+				["Sphere"] = true,
+				["OutfitPartUID"] = "510556303",
+				["OutfitPartName"] = "test",
+				["Position"] = Vector(45.0986328125, 0.00048828125, 0),
+				["Gravity"] = false,
+			},
+		},
+	},
+	["self"] = {
+		["EditorExpand"] = true,
+		["UniqueID"] = "374308228",
+		["ClassName"] = "group",
+		["Name"] = "my outfit",
+		["Description"] = "add parts to me!",
+	},
+},

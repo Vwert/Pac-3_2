@@ -1,0 +1,330 @@
+[1] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Loop"] = true,
+						["ClassName"] = "sound",
+						["UniqueID"] = "1179738501",
+						["Sound"] = "vehicles/apc/apc_idle1.wav",
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Overlapping"] = true,
+						["ClassName"] = "sound",
+						["UniqueID"] = "3109372514",
+						["Sound"] = "vehicles/apc/apc_shutdown.wav",
+					},
+				},
+			},
+			["self"] = {
+				["Event"] = "speed",
+				["Invert"] = true,
+				["Operator"] = "equal",
+				["UniqueID"] = "2591730241",
+				["ClassName"] = "event",
+			},
+		},
+	},
+	["self"] = {
+		["ClassName"] = "group",
+		["UniqueID"] = "2383356695",
+		["Name"] = "stop car",
+	},
+},
+[2] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Velocity"] = 297.5,
+						["UniqueID"] = "384621256",
+						["Lighting"] = false,
+						["FireDelay"] = 0,
+						["EndSize"] = 1,
+						["ClassName"] = "particles",
+						["DieTime"] = 16.7,
+						["Position"] = Vector(51.122619628906, 74.994750976563, 22.7548828125),
+						["Material"] = "particle/particle_smokegrenade",
+						["Bone"] = "",
+						["StartSize"] = 49.7,
+						["Angles"] = Angle(-2.4227361679077, 179.99998474121, 180),
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Loop"] = true,
+						["ClassName"] = "sound",
+						["UniqueID"] = "2472112322",
+						["Sound"] = "vehicles/apc/apc_firstgear_loop1.wav",
+					},
+				},
+				[3] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "light",
+						["Position"] = Vector(-0.00250244140625, 23.639953613281, 135.4638671875),
+						["Color"] = Vector(0, 161, 255),
+						["Bone"] = "",
+						["Size"] = 135.4,
+						["UniqueID"] = "210783685",
+					},
+				},
+				[4] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Velocity"] = 297.5,
+						["UniqueID"] = "3630243529",
+						["Lighting"] = false,
+						["FireDelay"] = 0,
+						["EndSize"] = 1,
+						["ClassName"] = "particles",
+						["DieTime"] = 16.7,
+						["Position"] = Vector(46.386871337891, -44.8662109375, 22.9541015625),
+						["Material"] = "particle/particle_smokegrenade",
+						["Bone"] = "",
+						["StartSize"] = 49.7,
+						["Angles"] = Angle(-2.4227361679077, 179.99998474121, 180),
+					},
+				},
+				[5] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Operator"] = "maybe",
+								["ClassName"] = "event",
+								["UniqueID"] = "1647724977",
+								["Event"] = "timerx",
+							},
+						},
+					},
+					["self"] = {
+						["UniqueID"] = "2291092520",
+						["ClassName"] = "shake",
+						["Amplitude"] = 15,
+						["Duration"] = 1,
+					},
+				},
+			},
+			["self"] = {
+				["Operator"] = "equal",
+				["ClassName"] = "event",
+				["UniqueID"] = "2539533015",
+				["Event"] = "speed",
+			},
+		},
+	},
+	["self"] = {
+		["ClassName"] = "group",
+		["UniqueID"] = "4142681098",
+		["Name"] = "run car",
+	},
+},
+[3] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+										[1] = {
+											["children"] = {
+												[1] = {
+													["children"] = {
+													},
+													["self"] = {
+														["Operator"] = "equal",
+														["ClassName"] = "event",
+														["UniqueID"] = "1369899016",
+														["Event"] = "speed",
+													},
+												},
+											},
+											["self"] = {
+												["ClassName"] = "proxy",
+												["UniqueID"] = "3097901327",
+												["Expression"] = "nul, nul, time()*500",
+												["EditorExpand"] = true,
+												["VariableName"] = "AngleOffset",
+											},
+										},
+									},
+									["self"] = {
+										["ClassName"] = "model",
+										["AngleOffset"] = Angle(0.043095879256725, 0, 1379204.375),
+										["UniqueID"] = "1601177138",
+										["EditorExpand"] = true,
+										["Position"] = Vector(-59.851287841797, 67.196350097656, 28.8671875),
+										["Bone"] = "",
+										["Model"] = "models/props_vehicles/apc_tire001.mdl",
+										["Angles"] = Angle(-0.020437836647034, -180, 180),
+									},
+								},
+								[2] = {
+									["children"] = {
+										[1] = {
+											["children"] = {
+												[1] = {
+													["children"] = {
+													},
+													["self"] = {
+														["Operator"] = "equal",
+														["ClassName"] = "event",
+														["UniqueID"] = "631593685",
+														["Event"] = "speed",
+													},
+												},
+											},
+											["self"] = {
+												["ClassName"] = "proxy",
+												["UniqueID"] = "4264243767",
+												["Expression"] = "nul, nul, time()*500",
+												["EditorExpand"] = true,
+												["VariableName"] = "AngleOffset",
+											},
+										},
+									},
+									["self"] = {
+										["ClassName"] = "model",
+										["AngleOffset"] = Angle(0.043095879256725, 0, 1379204.375),
+										["UniqueID"] = "3012706031",
+										["EditorExpand"] = true,
+										["Position"] = Vector(-59.851211547852, -75.398864746094, 28.8671875),
+										["Bone"] = "",
+										["Model"] = "models/props_vehicles/apc_tire001.mdl",
+										["Angles"] = Angle(-0.020437836647034, -180, 180),
+									},
+								},
+								[3] = {
+									["children"] = {
+										[1] = {
+											["children"] = {
+												[1] = {
+													["children"] = {
+													},
+													["self"] = {
+														["Operator"] = "equal",
+														["ClassName"] = "event",
+														["UniqueID"] = "463937129",
+														["Event"] = "speed",
+													},
+												},
+											},
+											["self"] = {
+												["ClassName"] = "proxy",
+												["UniqueID"] = "2022321315",
+												["Expression"] = "nul, nul, time()*-500",
+												["EditorExpand"] = true,
+												["VariableName"] = "AngleOffset",
+											},
+										},
+									},
+									["self"] = {
+										["ClassName"] = "model",
+										["AngleOffset"] = Angle(0.043095879256725, 0, -1379204.375),
+										["UniqueID"] = "2005345753",
+										["EditorExpand"] = true,
+										["Position"] = Vector(52.742065429688, -78.074981689453, 28.107421875),
+										["Bone"] = "",
+										["Model"] = "models/props_vehicles/apc_tire001.mdl",
+										["Angles"] = Angle(-0.56905061006546, -1.3661052435054e-005, -4.9590989874559e-006),
+									},
+								},
+								[4] = {
+									["children"] = {
+										[1] = {
+											["children"] = {
+												[1] = {
+													["children"] = {
+													},
+													["self"] = {
+														["Operator"] = "equal",
+														["ClassName"] = "event",
+														["UniqueID"] = "3775832205",
+														["Event"] = "speed",
+													},
+												},
+											},
+											["self"] = {
+												["ClassName"] = "proxy",
+												["UniqueID"] = "3385388982",
+												["Expression"] = "nul, nul, time()*-500",
+												["EditorExpand"] = true,
+												["VariableName"] = "AngleOffset",
+											},
+										},
+									},
+									["self"] = {
+										["ClassName"] = "model",
+										["AngleOffset"] = Angle(0.043095879256725, 0, -1379204.375),
+										["UniqueID"] = "1529889112",
+										["EditorExpand"] = true,
+										["Position"] = Vector(52.742263793945, 67.197875976563, 28.107421875),
+										["Bone"] = "",
+										["Model"] = "models/props_vehicles/apc_tire001.mdl",
+										["Angles"] = Angle(-2.9693810939789, 3.5051783925155e-005, -1.072894428944e-005),
+									},
+								},
+							},
+							["self"] = {
+								["Angles"] = Angle(-0, -91.822113037109, 0),
+								["UniqueID"] = "586914470",
+								["EditorExpand"] = true,
+								["Bone"] = "",
+								["Model"] = "models/combine_apc.mdl",
+								["ClassName"] = "model",
+							},
+						},
+					},
+					["self"] = {
+						["EditorExpand"] = true,
+						["ClassName"] = "jiggle",
+						["UniqueID"] = "3355978400",
+						["Speed"] = 0.9,
+					},
+				},
+			},
+			["self"] = {
+				["Alpha"] = 0,
+				["ClassName"] = "model",
+				["UniqueID"] = "2475986880",
+				["Bone"] = "",
+				["Model"] = "models/pac/default.mdl",
+				["EditorExpand"] = true,
+			},
+		},
+		[2] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Alpha"] = 0,
+				["ClassName"] = "entity",
+				["UniqueID"] = "3391232403",
+			},
+		},
+	},
+	["self"] = {
+		["Name"] = "my outfit",
+		["ClassName"] = "group",
+		["UniqueID"] = "1590305494",
+		["Description"] = "add parts to me!",
+	},
+},

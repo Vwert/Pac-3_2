@@ -1,0 +1,290 @@
+[1] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(-8.9630002975464, -50.254001617432, -5.1533952500904e-05),
+						["Bone"] = "left upperarm",
+						["UniqueID"] = "1911148117",
+						["ClassName"] = "bone",
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "animation",
+						["OwnerCycle"] = true,
+						["SequenceName"] = "idle_all_01",
+						["EditorExpand"] = true,
+						["UniqueID"] = "1645508428",
+					},
+				},
+				[3] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(41.65599822998, -88.177001953125, -18.184999465942),
+						["UniqueID"] = "993738782",
+						["Bone"] = "left forearm",
+						["ClassName"] = "bone",
+						["EditorExpand"] = true,
+					},
+				},
+				[4] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Angles"] = Angle(0, 26.799999237061, 0),
+										["EditorExpand"] = true,
+										["UniqueID"] = "3448865791",
+										["ClassName"] = "bone",
+									},
+								},
+								[2] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Angles"] = Angle(0, -16.700000762939, 0),
+										["Bone"] = "spine 1",
+										["UniqueID"] = "2607793854",
+										["ClassName"] = "bone",
+									},
+								},
+								[3] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Arguments"] = "a",
+										["Invert"] = true,
+										["Event"] = "button",
+										["UniqueID"] = "2819493237",
+										["EditorExpand"] = true,
+										["ClassName"] = "event",
+									},
+								},
+							},
+							["self"] = {
+								["Arguments"] = "255",
+								["Invert"] = true,
+								["UniqueID"] = "121639970",
+								["Event"] = "speed",
+								["Operator"] = "above",
+								["EditorExpand"] = true,
+								["ClassName"] = "event",
+							},
+						},
+					},
+					["self"] = {
+						["Angles"] = Angle(89, 0, 40.099998474121),
+						["Bone"] = "pelvis",
+						["UniqueID"] = "2715798664",
+						["ClassName"] = "bone",
+					},
+				},
+				[5] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(2.4649999141693, -63.624118804932, 3.8615846278844e-05),
+						["Bone"] = "right upperarm",
+						["UniqueID"] = "1541206664",
+						["ClassName"] = "bone",
+					},
+				},
+				[6] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Angles"] = Angle(0, 26.799999237061, 0),
+										["UniqueID"] = "1909175343",
+										["ClassName"] = "bone",
+									},
+								},
+								[2] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Angles"] = Angle(0, -16.700000762939, 0),
+										["Bone"] = "spine 1",
+										["UniqueID"] = "3158591102",
+										["ClassName"] = "bone",
+									},
+								},
+							},
+							["self"] = {
+								["Arguments"] = "255",
+								["Invert"] = true,
+								["UniqueID"] = "2506165655",
+								["Event"] = "speed",
+								["Operator"] = "above",
+								["EditorExpand"] = true,
+								["ClassName"] = "event",
+							},
+						},
+					},
+					["self"] = {
+						["Angles"] = Angle(0, 0, 40.099998474121),
+						["UniqueID"] = "3073328839",
+						["Bone"] = "pelvis",
+						["ClassName"] = "bone",
+						["EditorExpand"] = true,
+					},
+				},
+				[7] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(-76.433731079102, -101.56161499023, 104.77321624756),
+						["Bone"] = "right forearm",
+						["UniqueID"] = "3131150682",
+						["ClassName"] = "bone",
+					},
+				},
+				[8] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Angles"] = Angle(0, 26.799999237061, 0),
+										["EditorExpand"] = true,
+										["UniqueID"] = "1300623732",
+										["ClassName"] = "bone",
+									},
+								},
+								[2] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Angles"] = Angle(0, -16.700000762939, 0),
+										["Bone"] = "spine 1",
+										["UniqueID"] = "105790589",
+										["ClassName"] = "bone",
+									},
+								},
+								[3] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Arguments"] = "d",
+										["Invert"] = true,
+										["Event"] = "button",
+										["UniqueID"] = "3174284786",
+										["EditorExpand"] = true,
+										["ClassName"] = "event",
+									},
+								},
+							},
+							["self"] = {
+								["Arguments"] = "255",
+								["Invert"] = true,
+								["UniqueID"] = "390625837",
+								["Event"] = "speed",
+								["Operator"] = "above",
+								["EditorExpand"] = true,
+								["ClassName"] = "event",
+							},
+						},
+					},
+					["self"] = {
+						["Angles"] = Angle(-89, 0, 40.099998474121),
+						["Bone"] = "pelvis",
+						["UniqueID"] = "2274516490",
+						["ClassName"] = "bone",
+					},
+				},
+				[9] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Angles"] = Angle(0, 26.799999237061, 0),
+										["EditorExpand"] = true,
+										["UniqueID"] = "2212451136",
+										["ClassName"] = "bone",
+									},
+								},
+								[2] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Angles"] = Angle(0, -16.700000762939, 0),
+										["Bone"] = "spine 1",
+										["UniqueID"] = "2663546472",
+										["ClassName"] = "bone",
+									},
+								},
+								[3] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Arguments"] = "s",
+										["Invert"] = true,
+										["Event"] = "button",
+										["UniqueID"] = "2074855895",
+										["EditorExpand"] = true,
+										["ClassName"] = "event",
+									},
+								},
+							},
+							["self"] = {
+								["Arguments"] = "255",
+								["Invert"] = true,
+								["UniqueID"] = "2024865866",
+								["Event"] = "speed",
+								["Operator"] = "above",
+								["EditorExpand"] = true,
+								["ClassName"] = "event",
+							},
+						},
+					},
+					["self"] = {
+						["Angles"] = Angle(-180.19999694824, 2.4000000953674, 40.099998474121),
+						["Bone"] = "pelvis",
+						["UniqueID"] = "319064564",
+						["ClassName"] = "bone",
+					},
+				},
+			},
+			["self"] = {
+				["ClassName"] = "event",
+				["UniqueID"] = "1296870559",
+				["Event"] = "is_in_noclip",
+				["EditorExpand"] = true,
+				["Invert"] = true,
+			},
+		},
+	},
+	["self"] = {
+		["ClassName"] = "group",
+		["UniqueID"] = "348741216",
+		["Name"] = "fly",
+	},
+},
+[2] = {
+	["children"] = {
+	},
+	["self"] = {
+		["Name"] = "my outfit",
+		["ClassName"] = "group",
+		["UniqueID"] = "178736614",
+		["Description"] = "add parts to me!",
+	},
+},

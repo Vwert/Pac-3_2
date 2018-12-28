@@ -1,0 +1,187 @@
+[1] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Event"] = "is_flashlight_on",
+						["ClassName"] = "event",
+						["Invert"] = true,
+						["UniqueID"] = "122777167",
+					},
+				},
+			},
+			["self"] = {
+				["ClassName"] = "model",
+				["Angles"] = Angle(-41.112281799316, -1.2277281284332, 167.27311706543),
+				["UniqueID"] = "3551619407",
+				["EditorExpand"] = true,
+				["Position"] = Vector(-5.391845703125, -1.54833984375, 6.2861328125),
+				["Bone"] = "right hand",
+				["Model"] = "https://www.dropbox.com/s/gk7o34lfwb1r4pp/guitar.obj?dl=0",
+				["Material"] = "https://www.dl.dropboxusercontent.com/s/fjgtr2ahhfcjmye/martin_d-45_diff.jpg?dl=0",
+			},
+		},
+	},
+	["self"] = {
+		["Name"] = "my outfit",
+		["ClassName"] = "group",
+		["UniqueID"] = "2459609217",
+		["Description"] = "add parts to me!",
+	},
+},
+[2] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "animation",
+						["UniqueID"] = "1141765655",
+						["SequenceName"] = "sit",
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(-30.09154510498, -4.4642119407654, -43.633296966553),
+						["Bone"] = "left upperarm",
+						["UniqueID"] = "2771890300",
+						["ClassName"] = "bone",
+					},
+				},
+				[3] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(26.172946929932, -54.729679107666, -7.6013703346252),
+						["Bone"] = "right upperarm",
+						["UniqueID"] = "891875209",
+						["ClassName"] = "bone",
+					},
+				},
+				[4] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(-76.206687927246, -91.685203552246, 1.3156399726868),
+						["UniqueID"] = "3755536093",
+						["Position"] = Vector(-0.7103271484375, -39.470703125, -10.28271484375),
+						["Bone"] = "pelvis",
+						["Model"] = "models/chairs/armchair.mdl",
+						["ClassName"] = "model",
+					},
+				},
+				[5] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(3.8419817428803e-05, -99.131248474121, -1.7075473806472e-05),
+						["Bone"] = "left hand",
+						["UniqueID"] = "2714604648",
+						["ClassName"] = "bone",
+					},
+				},
+				[6] = {
+					["children"] = {
+					},
+					["self"] = {
+						["UniqueID"] = "544467340",
+						["Bone"] = "pelvis",
+						["Position"] = Vector(0, 0, 16.89999961853),
+						["ClassName"] = "bone",
+					},
+				},
+				[7] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "webaudio",
+						["UniqueID"] = "2100411721",
+						["URL"] = "https://www.dropbox.com/s/ucd4s62u5113fpm/totalresult.mp3?dl=0",
+						["Volume"] = 2.2,
+						["Loop"] = true,
+					},
+				},
+				[8] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(-55.298141479492, 48.869449615479, 67.677238464355),
+						["Bone"] = "right forearm",
+						["UniqueID"] = "428785768",
+						["ClassName"] = "bone",
+					},
+				},
+				[9] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(17.778812408447, 2.8690968974843e-05, 5.3795567509951e-05),
+						["UniqueID"] = "3843975776",
+						["ClassName"] = "bone",
+					},
+				},
+				[10] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "webaudio",
+						["UniqueID"] = "873925061",
+						["URL"] = "https://www.dropbox.com/s/ucd4s62u5113fpm/totalresult.mp3?dl=0",
+						["Volume"] = 2.2,
+						["Loop"] = true,
+					},
+				},
+				[11] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(-0.9060452580452, 7.0018191763666e-05, -153.01042175293),
+						["Bone"] = "left forearm",
+						["UniqueID"] = "1931720709",
+						["ClassName"] = "bone",
+					},
+				},
+				[12] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 227.275,
+						["ClassName"] = "light",
+						["UniqueID"] = "3301053096",
+						["Bone"] = "",
+					},
+				},
+				[13] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "webaudio",
+						["UniqueID"] = "873925061",
+						["URL"] = "https://www.dropbox.com/s/ucd4s62u5113fpm/totalresult.mp3?dl=0",
+						["Volume"] = 2.2,
+						["Loop"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["ClassName"] = "event",
+				["UniqueID"] = "2806813423",
+				["Event"] = "is_flashlight_on",
+				["EditorExpand"] = true,
+				["Invert"] = true,
+			},
+		},
+	},
+	["self"] = {
+		["ClassName"] = "group",
+		["UniqueID"] = "336208750",
+		["Name"] = "music",
+	},
+},

@@ -1,0 +1,62 @@
+[1] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(-15.302000045776, -92.145980834961, 94.341415405273),
+						["ClassName"] = "clip",
+						["UniqueID"] = "1542723863",
+						["Position"] = Vector(-0.02490234375, -1.35107421875, 0.1776123046875),
+					},
+				},
+			},
+			["self"] = {
+				["BoneMerge"] = true,
+				["ClassName"] = "model",
+				["DoubleFace"] = true,
+				["Model"] = "models/player/zombie_classic.mdl",
+				["UniqueID"] = "1606078159",
+			},
+		},
+		[2] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(89.564002990723, -179.99926757813, -179.99992370605),
+						["ClassName"] = "clip",
+						["UniqueID"] = "179619433",
+						["Position"] = Vector(0, 0.000244140625, 0.89200001955032),
+					},
+				},
+			},
+			["self"] = {
+				["BoneMerge"] = true,
+				["ClassName"] = "model",
+				["UniqueID"] = "682523998",
+				["Model"] = "models/player/gman_high.mdl",
+			},
+		},
+		[3] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Alpha"] = 0,
+				["EditorExpand"] = true,
+				["UniqueID"] = "2376832191",
+				["Model"] = "models/player/gman_high.mdl",
+				["ClassName"] = "entity",
+			},
+		},
+	},
+	["self"] = {
+		["Name"] = "my outfit",
+		["ClassName"] = "group",
+		["UniqueID"] = "2915167781",
+		["Description"] = "add parts to me!",
+	},
+},

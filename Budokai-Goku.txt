@@ -1,0 +1,604 @@
+[1] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Velocity"] = 156.8,
+						["Follow"] = true,
+						["UniqueID"] = "4278512956",
+						["DieTime"] = 0.5,
+						["Position"] = Vector(-0.000244140625, 0.29901123046875, 1.892578125),
+						["Lighting"] = false,
+						["FireDelay"] = 0,
+						["Color1"] = Vector(255, 191, 0),
+						["EndSize"] = 1,
+						["ClassName"] = "particles",
+						["Additive"] = true,
+						["Spread"] = 0,
+						["Material"] = "https://www.dropbox.com/s/7pflxhvbp7oq87i/FX_1.png?dl=0",
+						["Bone"] = "",
+						["StartSize"] = 43.5,
+						["Angles"] = Angle(-90, 0, 0),
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Velocity"] = 156.8,
+						["Follow"] = true,
+						["UniqueID"] = "1861962348",
+						["DieTime"] = 0.7,
+						["Position"] = Vector(-9.918212890625e-05, 0.67230224609375, 1.892578125),
+						["Lighting"] = false,
+						["FireDelay"] = 0,
+						["Color1"] = Vector(255, 191, 0),
+						["EndSize"] = 1,
+						["ClassName"] = "particles",
+						["Additive"] = true,
+						["Spread"] = 0,
+						["Material"] = "https://www.dropbox.com/s/mz3c12ui1dyzrbt/FX_2.png?dl=0",
+						["Bone"] = "",
+						["StartSize"] = 33.7,
+						["Angles"] = Angle(-90, 0, 0),
+					},
+				},
+				[3] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "light",
+						["Size"] = 84,
+						["Color"] = Vector(255, 191, 0),
+						["Bone"] = "",
+						["UniqueID"] = "1547671849",
+					},
+				},
+			},
+			["self"] = {
+				["ClassName"] = "event",
+				["UniqueID"] = "2495384679",
+				["Event"] = "is_flashlight_on",
+				["EditorExpand"] = true,
+				["Invert"] = true,
+			},
+		},
+	},
+	["self"] = {
+		["ClassName"] = "group",
+		["UniqueID"] = "929822028",
+		["Name"] = "Aura",
+	},
+},
+[2] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["UniqueID"] = "2548867169",
+						["Bone"] = "right upperarm",
+						["Position"] = Vector(4.5634765625, 2.4013671875, 0.00048828125),
+						["ClassName"] = "bone",
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["UniqueID"] = "1571877141",
+						["Bone"] = "left upperarm",
+						["Position"] = Vector(4.36572265625, 1.69921875, -0.000244140625),
+						["ClassName"] = "bone",
+					},
+				},
+				[3] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 0.1,
+						["Bone"] = "right glut",
+						["UniqueID"] = "968080501",
+						["ClassName"] = "bone",
+					},
+				},
+				[4] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 0.1,
+						["Bone"] = "pelvis",
+						["UniqueID"] = "1260922964",
+						["ClassName"] = "bone",
+					},
+				},
+				[5] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Size"] = 0.1,
+						["Bone"] = "left glut",
+						["UniqueID"] = "968080501",
+						["ClassName"] = "bone",
+					},
+				},
+			},
+			["self"] = {
+				["ClassName"] = "entity",
+				["Size"] = 0.9,
+				["UniqueID"] = "717596410",
+				["Model"] = "models/pac/male/base_male.mdl",
+				["HideEntity"] = true,
+			},
+		},
+		[2] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Position"] = Vector(12.357421875, -2.7549133300781, 0.61151123046875),
+				["UniqueID"] = "1152856029",
+				["Size"] = 0.6,
+				["EditorExpand"] = true,
+				["DoubleFace"] = true,
+				["Bone"] = "right thigh",
+				["Color"] = Vector(255, 114, 44),
+				["Fullbright"] = true,
+				["Model"] = "models/pac/default.mdl",
+				["ClassName"] = "model",
+			},
+		},
+		[3] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Position"] = Vector(11.376953125, -2.353271484375, 0.25946044921875),
+				["Fullbright"] = true,
+				["Size"] = 4.626,
+				["Angles"] = Angle(-78.543632507324, -100.00006866455, 175.0460357666),
+				["DoubleFace"] = true,
+				["ClassName"] = "model",
+				["Material"] = "https://www.dl.dropboxusercontent.com/s/zehw3e1z1c5chvu/shoes.png?dl=0",
+				["Bone"] = "right calf",
+				["Model"] = "https://www.dropbox.com/s/kd5ezq826znu4hp/boot_r.obj?dl=0",
+				["UniqueID"] = "515626707",
+			},
+		},
+		[4] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(-1.7033966779709, -94.17951965332, 179.99981689453),
+						["ClassName"] = "clip",
+						["UniqueID"] = "2450462865",
+						["Position"] = Vector(-0.0001068115234375, -0.046875, -0.069091796875),
+					},
+				},
+			},
+			["self"] = {
+				["Position"] = Vector(-4.1708984375, 0.32666015625, 0.705322265625),
+				["Fullbright"] = true,
+				["Size"] = 3.525,
+				["Angles"] = Angle(-9.7330201242585e-05, 92.832252502441, 0.00019209907623008),
+				["DoubleFace"] = true,
+				["ClassName"] = "model",
+				["Material"] = "https://www.dl.dropboxusercontent.com/s/jkqrwofxvx4oc3e/pants.png?dl=0",
+				["Bone"] = "right calf",
+				["Model"] = "https://www.dropbox.com/s/b15zrkt48p1k6f8/pant_r.obj?dl=0",
+				["UniqueID"] = "1390552212",
+			},
+		},
+		[5] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Position"] = Vector(12.353515625, -2.7587890625, 0.420654296875),
+				["UniqueID"] = "2310156121",
+				["Size"] = 0.6,
+				["EditorExpand"] = true,
+				["DoubleFace"] = true,
+				["Bone"] = "left thigh",
+				["Color"] = Vector(255, 106, 43),
+				["Fullbright"] = true,
+				["Model"] = "models/pac/default.mdl",
+				["ClassName"] = "model",
+			},
+		},
+		[6] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Position"] = Vector(0.0015869140625, 4.0322265625, -3.0283203125),
+						["UniqueID"] = "3418992104",
+						["Angles"] = Angle(-0.15471422672272, -0.57311677932739, -15.109125137329),
+						["Size"] = 4.625,
+						["ClassName"] = "model",
+						["Material"] = "https://www.dl.dropboxusercontent.com/s/cv6x7ie1kvz18b0/hair.png?dl=0",
+						["Fullbright"] = true,
+						["Model"] = "https://www.dropbox.com/s/61go4pwztzm1pke/hair.obj?dl=0",
+						["DoubleFace"] = true,
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Event"] = "is_flashlight_on",
+						["ClassName"] = "event",
+						["Invert"] = true,
+						["UniqueID"] = "3845736028",
+					},
+				},
+			},
+			["self"] = {
+				["Position"] = Vector(1.0498046875, -2.158935546875, -0.23638916015625),
+				["UniqueID"] = "2049850844",
+				["Angles"] = Angle(83.257316589355, 112.80505371094, -164.87307739258),
+				["Size"] = 4.625,
+				["ClassName"] = "model",
+				["Material"] = "https://www.dl.dropboxusercontent.com/s/2lswiz6oqtbje1l/eyes_1.png?dl=0",
+				["Fullbright"] = true,
+				["Model"] = "https://www.dropbox.com/s/o9yzp611esicqwg/face.obj?dl=0",
+				["DoubleFace"] = true,
+			},
+		},
+		[7] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Position"] = Vector(0.17877197265625, 0.1611328125, 1.0827026367188),
+				["UniqueID"] = "803474984",
+				["Material"] = "https://www.dl.dropboxusercontent.com/s/jkqrwofxvx4oc3e/pants.png?dl=0",
+				["Size"] = 3.525,
+				["ClassName"] = "model",
+				["Bone"] = "pelvis",
+				["Fullbright"] = true,
+				["Model"] = "https://www.dropbox.com/s/ib0slqze0z9ic5j/pelvis.obj?dl=0",
+				["DoubleFace"] = true,
+			},
+		},
+		[8] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Position"] = Vector(11.48828125, -3.9189453125, 0.25956726074219),
+				["Fullbright"] = true,
+				["Size"] = 4.626,
+				["Angles"] = Angle(-89.999992370605, 74.740791320801, 0),
+				["DoubleFace"] = true,
+				["ClassName"] = "model",
+				["Material"] = "https://www.dl.dropboxusercontent.com/s/zehw3e1z1c5chvu/shoes.png?dl=0",
+				["Bone"] = "left calf",
+				["Model"] = "https://www.dropbox.com/s/ismufor5tfx5knr/boot_l.obj?dl=0",
+				["UniqueID"] = "1230761188",
+			},
+		},
+		[9] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["BaseTexture"] = "https://www.dl.dropboxusercontent.com/s/mfeks5pnyiyex9c/face.png?dl=0",
+						["BaseTexturePosition"] = Vector(2.5, 2.9000000953674, 3.0999999046326),
+						["UniqueID"] = "1539067635",
+						["BaseTextureAngle"] = 3.75,
+						["ClassName"] = "material",
+					},
+				},
+			},
+			["self"] = {
+				["Material"] = "https://www.dl.dropboxusercontent.com/s/mfeks5pnyiyex9c/face.png?dl=0",
+				["UniqueID"] = "4291666275",
+				["Position"] = Vector(0.1982421875, 0.513671875, 0.0013427734375),
+				["Size"] = 0.375,
+				["Fullbright"] = true,
+				["Model"] = "models/pac/default.mdl",
+				["ClassName"] = "model",
+			},
+		},
+		[10] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Position"] = Vector(0.1727294921875, -1.0400390625, 6.2724609375),
+						["UniqueID"] = "1488667558",
+						["Angles"] = Angle(0.0003620000788942, 0.00016072290600277, -10.740217208862),
+						["Size"] = 4.925,
+						["ClassName"] = "model",
+						["Material"] = "https://www.dl.dropboxusercontent.com/s/66simm8m8ijqj9c/belt.png?dl=0",
+						["Fullbright"] = true,
+						["Model"] = "https://www.dropbox.com/s/gzj7k333h6m4c26/belt2.obj?dl=0",
+						["DoubleFace"] = true,
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Position"] = Vector(9.6770000457764, 2.0599999427795, 1.4960000514984),
+						["UniqueID"] = "818993843",
+						["Angles"] = Angle(-0.4336157143116, -24.041923522949, 31.640140533447),
+						["Size"] = 4.625,
+						["ClassName"] = "model",
+						["Material"] = "https://www.dl.dropboxusercontent.com/s/66simm8m8ijqj9c/belt.png?dl=0",
+						["Fullbright"] = true,
+						["Model"] = "https://www.dropbox.com/s/hh2rwntd2awm6fg/upper_l.obj?dl=0",
+						["DoubleFace"] = true,
+					},
+				},
+				[3] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Position"] = Vector(-0.48187255859375, 4.2177734375, 2.63232421875),
+						["UniqueID"] = "2069582314",
+						["Angles"] = Angle(6.6167463955935e-05, -3.8493001461029, 3.1519272327423),
+						["Size"] = 4.775,
+						["ClassName"] = "model",
+						["Material"] = "https://www.dl.dropboxusercontent.com/s/mfeks5pnyiyex9c/face.png?dl=0",
+						["Fullbright"] = true,
+						["Model"] = "https://www.dropbox.com/s/2gnyuhgv6olfhjl/body.obj?dl=0",
+						["DoubleFace"] = true,
+					},
+				},
+				[4] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Position"] = Vector(-10.842834472656, 3.3681640625, -1.0146484375),
+						["UniqueID"] = "924767741",
+						["Angles"] = Angle(-16.770219802856, 24.755889892578, -3.252361536026),
+						["Size"] = 4.625,
+						["ClassName"] = "model",
+						["Material"] = "https://www.dl.dropboxusercontent.com/s/66simm8m8ijqj9c/belt.png?dl=0",
+						["Fullbright"] = true,
+						["Model"] = "https://www.dropbox.com/s/2kgi6087becpio1/upper_r.obj?dl=0",
+						["DoubleFace"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["Position"] = Vector(4.3388671875, 2.3188629150391, 0.2713623046875),
+				["Fullbright"] = true,
+				["Size"] = 4.625,
+				["Angles"] = Angle(-82.196495056152, -84.466972351074, -20.650905609131),
+				["DoubleFace"] = true,
+				["ClassName"] = "model",
+				["Material"] = "https://www.dl.dropboxusercontent.com/s/x0rqkerp8ona6p4/shirt.png?dl=0",
+				["Bone"] = "spine 2",
+				["Model"] = "https://www.dropbox.com/s/l3pil825vy8xzl5/shirt.obj?dl=0",
+				["UniqueID"] = "142609774",
+			},
+		},
+		[11] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Position"] = Vector(-1.033203125, 4.6094970703125, -0.0115966796875),
+				["Fullbright"] = true,
+				["Size"] = 4.7,
+				["Angles"] = Angle(88.020942687988, 100.55870056152, 9.2668514251709),
+				["DoubleFace"] = true,
+				["ClassName"] = "model",
+				["Material"] = "https://www.dl.dropboxusercontent.com/s/66simm8m8ijqj9c/belt.png?dl=0",
+				["Bone"] = "spine 1",
+				["Model"] = "https://www.dropbox.com/s/u5mnpzdxgjqwbou/belt.obj?dl=0",
+				["UniqueID"] = "980145405",
+			},
+		},
+		[12] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["BaseTexture"] = "https://www.dl.dropboxusercontent.com/s/lv01vzd74aeokll/arms.png?dl=0",
+						["ClassName"] = "material",
+						["UniqueID"] = "1053858031",
+						["BaseTextureAngle"] = 0.2,
+						["BaseTextureScale"] = Vector(1, 1.1000000238419, 1),
+					},
+				},
+			},
+			["self"] = {
+				["BoneMerge"] = true,
+				["Material"] = "https://www.dl.dropboxusercontent.com/s/lv01vzd74aeokll/arms.png?dl=0",
+				["DoubleFace"] = true,
+				["UniqueID"] = "1441484612",
+				["Fullbright"] = true,
+				["Model"] = "models/pac/male/base_male_arm_l.mdl",
+				["ClassName"] = "model",
+			},
+		},
+		[13] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(5.7633467804408e-05, 85.820465087891, 0.0002840397937689),
+						["ClassName"] = "clip",
+						["UniqueID"] = "1461136484",
+						["Position"] = Vector(-0.16754150390625, -2.34375, 0.0020751953125),
+					},
+				},
+			},
+			["self"] = {
+				["Position"] = Vector(10.4091796875, -2.2734375, 1.0426635742188),
+				["Fullbright"] = true,
+				["Size"] = 3.525,
+				["Angles"] = Angle(-7.088989514159e-05, 86.030654907227, 0.00015188833640423),
+				["DoubleFace"] = true,
+				["ClassName"] = "model",
+				["Material"] = "https://www.dl.dropboxusercontent.com/s/jkqrwofxvx4oc3e/pants.png?dl=0",
+				["Bone"] = "right thigh",
+				["Model"] = "https://www.dropbox.com/s/b15zrkt48p1k6f8/pant_r.obj?dl=0",
+				["UniqueID"] = "4263976559",
+			},
+		},
+		[14] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Position"] = Vector(-0.0006103515625, 3.779296875, -3.5809326171875),
+						["UniqueID"] = "1661566341",
+						["Angles"] = Angle(-0, -1.2806606264348e-06, -15.109888076782),
+						["Size"] = 4.625,
+						["ClassName"] = "model",
+						["Material"] = "https://www.dl.dropboxusercontent.com/s/ylu0yomrcl3zklf/hair1.png?dl=0",
+						["Fullbright"] = true,
+						["Model"] = "https://www.dropbox.com/s/nk1vuuyjv2foyjc/hair_normal.obj?dl=0",
+						["DoubleFace"] = true,
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "event",
+						["UniqueID"] = "445335748",
+						["Event"] = "is_flashlight_on",
+					},
+				},
+			},
+			["self"] = {
+				["Position"] = Vector(1.0498046875, -2.158935546875, -0.23638916015625),
+				["UniqueID"] = "2442861452",
+				["Angles"] = Angle(83.453369140625, 103.83464813232, -173.78343200684),
+				["Size"] = 4.625,
+				["ClassName"] = "model",
+				["Material"] = "https://www.dl.dropboxusercontent.com/s/mfeks5pnyiyex9c/face.png?dl=0",
+				["Fullbright"] = true,
+				["Model"] = "https://www.dropbox.com/s/o9yzp611esicqwg/face.obj?dl=0",
+				["DoubleFace"] = true,
+			},
+		},
+		[15] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Position"] = Vector(3.9052734375, -0.28271484375, 0.623046875),
+				["Fullbright"] = true,
+				["Size"] = 4.075,
+				["Angles"] = Angle(8.0134391784668, -92.643218994141, -72.495803833008),
+				["DoubleFace"] = true,
+				["ClassName"] = "model",
+				["Material"] = "https://www.dl.dropboxusercontent.com/s/66simm8m8ijqj9c/belt.png?dl=0",
+				["Bone"] = "right ulna",
+				["Model"] = "https://www.dropbox.com/s/k4icxs8nbdmguw7/wristband_r.obj?dl=0",
+				["UniqueID"] = "3517962253",
+			},
+		},
+		[16] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["BaseTexture"] = "https://www.dl.dropboxusercontent.com/s/lv01vzd74aeokll/arms.png?dl=0",
+						["ClassName"] = "material",
+						["UniqueID"] = "2897147046",
+						["BaseTextureAngle"] = 0.2,
+						["BaseTextureScale"] = Vector(1.2000000476837, 1.1000000238419, 1),
+					},
+				},
+			},
+			["self"] = {
+				["BoneMerge"] = true,
+				["Material"] = "https://www.dl.dropboxusercontent.com/s/lv01vzd74aeokll/arms.png?dl=0",
+				["DoubleFace"] = true,
+				["UniqueID"] = "3803496585",
+				["Fullbright"] = true,
+				["Model"] = "models/pac/male/base_male_arm_r.mdl",
+				["ClassName"] = "model",
+			},
+		},
+		[17] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(-1.5227853509714e-05, 92.910285949707, -1.0752211892395e-05),
+						["ClassName"] = "clip",
+						["UniqueID"] = "485216250",
+						["Position"] = Vector(0.1380615234375, -2.701171875, 0.00048828125),
+					},
+				},
+			},
+			["self"] = {
+				["Position"] = Vector(10.8857421875, -1.5604858398438, 0.20556640625),
+				["Fullbright"] = true,
+				["Size"] = 3.525,
+				["Angles"] = Angle(-1.7582400687388e-05, -97.380996704102, 179.99993896484),
+				["DoubleFace"] = true,
+				["ClassName"] = "model",
+				["Material"] = "https://www.dl.dropboxusercontent.com/s/jkqrwofxvx4oc3e/pants.png?dl=0",
+				["Bone"] = "left thigh",
+				["Model"] = "https://www.dropbox.com/s/1ndwdrkcp1dl0rl/pant_l.obj?dl=0",
+				["UniqueID"] = "1356942457",
+			},
+		},
+		[18] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Angles"] = Angle(-6.9816331863403, -87.089721679688, 179.99992370605),
+						["ClassName"] = "clip",
+						["UniqueID"] = "3135415175",
+						["Position"] = Vector(0.01959228515625, -0.3623046875, -0.2840576171875),
+					},
+				},
+			},
+			["self"] = {
+				["Position"] = Vector(-4.5, 0.65625, -0.7471923828125),
+				["Fullbright"] = true,
+				["Size"] = 3.525,
+				["Angles"] = Angle(-0.095543518662453, -94.153816223145, -178.30670166016),
+				["DoubleFace"] = true,
+				["ClassName"] = "model",
+				["Material"] = "https://www.dl.dropboxusercontent.com/s/jkqrwofxvx4oc3e/pants.png?dl=0",
+				["Bone"] = "left calf",
+				["Model"] = "https://www.dropbox.com/s/1ndwdrkcp1dl0rl/pant_l.obj?dl=0",
+				["UniqueID"] = "633587206",
+			},
+		},
+		[19] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Position"] = Vector(2.654296875, -0.0701904296875, -0.384765625),
+				["Fullbright"] = true,
+				["Size"] = 4.075,
+				["Angles"] = Angle(8.0132989883423, -92.643218994141, -112.89807891846),
+				["DoubleFace"] = true,
+				["ClassName"] = "model",
+				["Material"] = "https://www.dl.dropboxusercontent.com/s/66simm8m8ijqj9c/belt.png?dl=0",
+				["Bone"] = "left ulna",
+				["Model"] = "https://www.dropbox.com/s/cj4tkg4at4bhrig/wristband_l.obj?dl=0",
+				["UniqueID"] = "2827300620",
+			},
+		},
+	},
+	["self"] = {
+		["Name"] = "my outfit",
+		["ClassName"] = "group",
+		["UniqueID"] = "618565059",
+		["Description"] = "add parts to me!",
+	},
+},

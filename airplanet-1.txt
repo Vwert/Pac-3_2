@@ -1,0 +1,304 @@
+[1] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Event"] = "speed",
+						["Invert"] = true,
+						["Operator"] = "equal",
+						["UniqueID"] = "3167962",
+						["ClassName"] = "event",
+					},
+				},
+			},
+			["self"] = {
+				["ClassName"] = "sound",
+				["UniqueID"] = "2774627669",
+				["Pitch"] = 0.315,
+				["EditorExpand"] = true,
+				["Loop"] = true,
+				["Sound"] = "npc/combine_gunship/dropship_engine_distant_loop1.wav",
+			},
+		},
+	},
+	["self"] = {
+		["ClassName"] = "group",
+		["UniqueID"] = "3947326344",
+		["Name"] = "stop air",
+	},
+},
+[2] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+								[1] = {
+									["children"] = {
+										[1] = {
+											["children"] = {
+											},
+											["self"] = {
+												["Angles"] = Angle(2.6494339522287e-007, 0, -93.750358581543),
+												["Position"] = Vector(-100.22143554688, -151.70666503906, 1.6025390625),
+												["ClassName"] = "model",
+												["Size"] = 2.2,
+												["UniqueID"] = "459547815",
+												["Model"] = "models/props_phx/misc/flakshell_big.mdl",
+												["Scale"] = Vector(1, 1, 1.6000000238419),
+											},
+										},
+										[2] = {
+											["children"] = {
+											},
+											["self"] = {
+												["Angles"] = Angle(0, -126.47956085205, 0),
+												["UniqueID"] = "1662857299",
+												["EditorExpand"] = true,
+												["Position"] = Vector(104.46899414063, 3.2424926757813e-005, 0),
+												["ClassName"] = "clip",
+											},
+										},
+										[3] = {
+											["children"] = {
+											},
+											["self"] = {
+												["Angles"] = Angle(6.6905574798584, -179.55934143066, 93.77613067627),
+												["Position"] = Vector(63.763916015625, -143.31620788574, -16.271484375),
+												["ClassName"] = "model",
+												["Size"] = 2.2,
+												["UniqueID"] = "2555662031",
+												["Model"] = "models/props_phx/misc/flakshell_big.mdl",
+												["Scale"] = Vector(1, 1, 1.6000000238419),
+											},
+										},
+									},
+									["self"] = {
+										["ClassName"] = "model",
+										["Material"] = "models/items/combinerifle_ammo",
+										["UniqueID"] = "232258178",
+										["EditorExpand"] = true,
+										["Angles"] = Angle(0, -90.518524169922, 0),
+										["Position"] = Vector(163.78344726563, -236.24853515625, 49.560546875),
+										["Model"] = "models/hunter/plates/plate1x3.mdl",
+										["Scale"] = Vector(8.5, 1.1000000238419, 2.5),
+									},
+								},
+								[2] = {
+									["children"] = {
+										[1] = {
+											["children"] = {
+												[1] = {
+													["children"] = {
+													},
+													["self"] = {
+														["UniqueID"] = "3710187329",
+														["Lighting"] = false,
+														["FireDelay"] = 0,
+														["EndSize"] = 1,
+														["ClassName"] = "particles",
+														["Position"] = Vector(23.490158081055, -298.93041992188, 34.6240234375),
+														["Material"] = "particle/particle_smokegrenade",
+														["EditorExpand"] = true,
+														["Bone"] = "",
+														["StartSize"] = 45.4,
+														["Angles"] = Angle(3.3868844509125, 179.99996948242, 180),
+													},
+												},
+												[2] = {
+													["children"] = {
+													},
+													["self"] = {
+														["UniqueID"] = "2943741873",
+														["Lighting"] = false,
+														["FireDelay"] = 0,
+														["EndSize"] = 1,
+														["ClassName"] = "particles",
+														["Position"] = Vector(22.287658691406, 125.52758789063, 54.9375),
+														["Angles"] = Angle(3.3868844509125, 179.99996948242, 180),
+														["Bone"] = "",
+														["StartSize"] = 45.4,
+														["Material"] = "particle/particle_smokegrenade",
+													},
+												},
+												[3] = {
+													["children"] = {
+													},
+													["self"] = {
+														["UniqueID"] = "4059323187",
+														["Lighting"] = false,
+														["FireDelay"] = 0,
+														["EndSize"] = 1,
+														["ClassName"] = "particles",
+														["Position"] = Vector(22.287811279297, -135.84912109375, 54.9375),
+														["Angles"] = Angle(3.3868844509125, 179.99996948242, 180),
+														["Bone"] = "",
+														["StartSize"] = 45.4,
+														["Material"] = "particle/particle_smokegrenade",
+													},
+												},
+												[4] = {
+													["children"] = {
+													},
+													["self"] = {
+														["UniqueID"] = "988323254",
+														["Lighting"] = false,
+														["FireDelay"] = 0,
+														["EndSize"] = 1,
+														["ClassName"] = "particles",
+														["Position"] = Vector(-371.35247802734, 7.784423828125, 44.419921875),
+														["Angles"] = Angle(3.3868844509125, 179.99996948242, 180),
+														["Bone"] = "",
+														["StartSize"] = 45.4,
+														["Material"] = "particle/particle_smokegrenade",
+													},
+												},
+												[5] = {
+													["children"] = {
+													},
+													["self"] = {
+														["ClassName"] = "sound",
+														["UniqueID"] = "2953891935",
+														["Pitch"] = 0.327,
+														["Loop"] = true,
+														["Sound"] = "npc/combine_gunship/dropship_onground_loop1.wav",
+													},
+												},
+											},
+											["self"] = {
+												["Event"] = "speed",
+												["UniqueID"] = "2760510650",
+												["Operator"] = "equal",
+												["ClassName"] = "event",
+												["EditorExpand"] = true,
+											},
+										},
+									},
+									["self"] = {
+										["UniqueID"] = "2987592070",
+										["Lighting"] = false,
+										["FireDelay"] = 0,
+										["EndSize"] = 1,
+										["ClassName"] = "particles",
+										["Position"] = Vector(24.02262878418, 264.91479492188, 25.6220703125),
+										["Material"] = "particle/particle_smokegrenade",
+										["EditorExpand"] = true,
+										["Bone"] = "",
+										["StartSize"] = 45.4,
+										["Angles"] = Angle(3.3868844509125, 179.99996948242, 180),
+									},
+								},
+								[3] = {
+									["children"] = {
+										[1] = {
+											["children"] = {
+											},
+											["self"] = {
+												["Angles"] = Angle(2.6494339522287e-007, 0, -93.750358581543),
+												["Position"] = Vector(-100.220703125, -142.18482971191, 0.9814453125),
+												["ClassName"] = "model",
+												["Size"] = 2.2,
+												["UniqueID"] = "1203343816",
+												["Model"] = "models/props_phx/misc/flakshell_big.mdl",
+												["Scale"] = Vector(1, 1, 1.6000000238419),
+											},
+										},
+										[2] = {
+											["children"] = {
+											},
+											["self"] = {
+												["Angles"] = Angle(2.6494339522287e-007, 0, -93.750358581543),
+												["Position"] = Vector(36.28076171875, -140.50498962402, 26.6376953125),
+												["ClassName"] = "model",
+												["Size"] = 2.2,
+												["UniqueID"] = "45651766",
+												["Model"] = "models/props_phx/misc/flakshell_big.mdl",
+												["Scale"] = Vector(1, 1, 1.6000000238419),
+											},
+										},
+										[3] = {
+											["children"] = {
+											},
+											["self"] = {
+												["Angles"] = Angle(0, -126.47956085205, 0),
+												["ClassName"] = "clip",
+												["UniqueID"] = "981874992",
+												["Position"] = Vector(104.46899414063, 3.2424926757813e-005, 0),
+											},
+										},
+									},
+									["self"] = {
+										["ClassName"] = "model",
+										["Material"] = "models/items/combinerifle_ammo",
+										["UniqueID"] = "4138723566",
+										["EditorExpand"] = true,
+										["Angles"] = Angle(-0.025176646187901, 89.481475830078, 180),
+										["Position"] = Vector(167.9753112793, 226.70239257813, 49.6220703125),
+										["Model"] = "models/hunter/plates/plate1x3.mdl",
+										["Scale"] = Vector(8.5, 1.1000000238419, 2.5),
+									},
+								},
+								[4] = {
+									["children"] = {
+									},
+									["self"] = {
+										["Angles"] = Angle(5.4159998893738, -3.7999999523163, 0),
+										["Position"] = Vector(378.13073730469, 0.000244140625, 44.82421875),
+										["ClassName"] = "model",
+										["UniqueID"] = "1581313667",
+										["Model"] = "models/Gibs/helicopter_brokenpiece_04_cockpit.mdl",
+										["Scale"] = Vector(1, 1.3999999761581, 0.80000001192093),
+									},
+								},
+							},
+							["self"] = {
+								["Material"] = "models/items/combinerifle_ammo",
+								["Position"] = Vector(0.80000001192093, 0.20000000298023, 68.800003051758),
+								["ClassName"] = "model",
+								["Size"] = 4.525,
+								["EditorExpand"] = true,
+								["Model"] = "models/props_phx/torpedo.mdl",
+								["UniqueID"] = "68001637",
+							},
+						},
+					},
+					["self"] = {
+						["EditorExpand"] = true,
+						["UniqueID"] = "2916554026",
+						["Speed"] = 0.6,
+						["ClassName"] = "jiggle",
+						["Strain"] = 0.441,
+					},
+				},
+			},
+			["self"] = {
+				["Alpha"] = 0,
+				["ClassName"] = "model",
+				["UniqueID"] = "1469831346",
+				["Bone"] = "",
+				["Model"] = "models/pac/default.mdl",
+				["EditorExpand"] = true,
+			},
+		},
+		[2] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Alpha"] = 0,
+				["ClassName"] = "entity",
+				["UniqueID"] = "1766253468",
+			},
+		},
+	},
+	["self"] = {
+		["Name"] = "my outfit",
+		["ClassName"] = "group",
+		["UniqueID"] = "1995439676",
+		["Description"] = "add parts to me!",
+	},
+},
